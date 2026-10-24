@@ -1,0 +1,1054 @@
+﻿OPEN rate=192000 bits=24 wait=0 tail=0 pause=0 notify=0 initialWait=0 hr=00000000 frames=5760
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=192 prev=0 prevValid=0 freq=192000 submitted=5760 target=5760
+  clk GetPosition hr=00000000 pos=192 prev=192 prevValid=1 freq=192000 submitted=11520 target=11520
+  clk GetPosition hr=00000000 pos=8192 prev=192 prevValid=1 freq=192000 submitted=17280 target=17280
+  clk GetPosition hr=00000000 pos=12288 prev=8192 prevValid=1 freq=192000 submitted=23040 target=23040
+  clk GetPosition hr=00000000 pos=20480 prev=12288 prevValid=1 freq=192000 submitted=28800 target=28800
+  clk GetPosition hr=00000000 pos=24576 prev=20480 prevValid=1 freq=192000 submitted=34560 target=34560
+  clk GetPosition hr=00000000 pos=28672 prev=24576 prevValid=1 freq=192000 submitted=40320 target=40320
+  clk GetPosition hr=00000000 pos=36864 prev=28672 prevValid=1 freq=192000 submitted=46080 target=46080
+  clk GetPosition hr=00000000 pos=40960 prev=36864 prevValid=1 freq=192000 submitted=51840 target=51840
+  clk GetPosition hr=00000000 pos=49152 prev=40960 prevValid=1 freq=192000 submitted=57600 target=57600
+  clk GetPosition hr=00000000 pos=53248 prev=49152 prevValid=1 freq=192000 submitted=63360 target=63360
+  clk GetPosition hr=00000000 pos=57344 prev=53248 prevValid=1 freq=192000 submitted=69120 target=69120
+  clk GetPosition hr=00000000 pos=65536 prev=57344 prevValid=1 freq=192000 submitted=74880 target=74880
+  clk GetPosition hr=00000000 pos=69632 prev=65536 prevValid=1 freq=192000 submitted=80640 target=80640
+  clk GetPosition hr=00000000 pos=77824 prev=69632 prevValid=1 freq=192000 submitted=86400 target=86400
+  clk GetPosition hr=00000000 pos=81920 prev=77824 prevValid=1 freq=192000 submitted=92160 target=92160
+  clk GetPosition hr=00000000 pos=86016 prev=81920 prevValid=1 freq=192000 submitted=97920 target=97920
+  clk GetPosition hr=00000000 pos=94208 prev=86016 prevValid=1 freq=192000 submitted=103680 target=103680
+  clk GetPosition hr=00000000 pos=98304 prev=94208 prevValid=1 freq=192000 submitted=109440 target=109440
+  clk GetPosition hr=00000000 pos=106496 prev=98304 prevValid=1 freq=192000 submitted=115200 target=115200
+  clk GetPosition hr=00000000 pos=106496 prev=106496 prevValid=1 freq=192000 submitted=120960 target=120960
+  clk GetPosition hr=00000000 pos=110592 prev=106496 prevValid=1 freq=192000 submitted=120960 target=120960
+  clk GetPosition hr=00000000 pos=114823 prev=110592 prevValid=1 freq=192000 submitted=120960 target=120960
+  clk GetPosition hr=00000000 pos=120967 prev=114823 prevValid=1 freq=192000 submitted=120960 target=120960
+RESULT PASS complete=1 hr=00000000 waits=0 fills=21
+OPEN rate=192000 bits=24 wait=0 tail=1 pause=0 notify=0 initialWait=0 hr=00000000 frames=5760
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=186 prev=0 prevValid=0 freq=192000 submitted=5760 target=5760
+  clk GetPosition hr=00000000 pos=186 prev=186 prevValid=1 freq=192000 submitted=11520 target=11520
+  clk GetPosition hr=00000000 pos=8192 prev=186 prevValid=1 freq=192000 submitted=17280 target=17280
+  clk GetPosition hr=00000000 pos=12338 prev=8192 prevValid=1 freq=192000 submitted=23040 target=23040
+  clk GetPosition hr=00000000 pos=20480 prev=12338 prevValid=1 freq=192000 submitted=28800 target=28800
+  clk GetPosition hr=00000000 pos=24576 prev=20480 prevValid=1 freq=192000 submitted=34560 target=34560
+  clk GetPosition hr=00000000 pos=28693 prev=24576 prevValid=1 freq=192000 submitted=40320 target=40320
+  clk GetPosition hr=00000000 pos=36864 prev=28693 prevValid=1 freq=192000 submitted=46080 target=46080
+  clk GetPosition hr=00000000 pos=41017 prev=36864 prevValid=1 freq=192000 submitted=51840 target=51840
+  clk GetPosition hr=00000000 pos=49152 prev=41017 prevValid=1 freq=192000 submitted=57600 target=57600
+  clk GetPosition hr=00000000 pos=53248 prev=49152 prevValid=1 freq=192000 submitted=63360 target=63360
+  clk GetPosition hr=00000000 pos=57408 prev=53248 prevValid=1 freq=192000 submitted=69120 target=69120
+  clk GetPosition hr=00000000 pos=65536 prev=57408 prevValid=1 freq=192000 submitted=74880 target=74880
+  clk GetPosition hr=00000000 pos=69632 prev=65536 prevValid=1 freq=192000 submitted=80640 target=80640
+  clk GetPosition hr=00000000 pos=77824 prev=69632 prevValid=1 freq=192000 submitted=86400 target=86400
+  clk GetPosition hr=00000000 pos=81920 prev=77824 prevValid=1 freq=192000 submitted=92160 target=92160
+  clk GetPosition hr=00000000 pos=86016 prev=81920 prevValid=1 freq=192000 submitted=97920 target=97920
+  clk GetPosition hr=00000000 pos=94208 prev=86016 prevValid=1 freq=192000 submitted=103680 target=103680
+  clk GetPosition hr=00000000 pos=98304 prev=94208 prevValid=1 freq=192000 submitted=109440 target=109440
+  clk GetPosition hr=00000000 pos=106496 prev=98304 prevValid=1 freq=192000 submitted=115200 target=115200
+  clk GetPosition hr=00000000 pos=106496 prev=106496 prevValid=1 freq=192000 submitted=120960 target=120960
+  clk GetPosition hr=00000000 pos=110592 prev=106496 prevValid=1 freq=192000 submitted=120960 target=120960
+  clk GetPosition hr=00000000 pos=114777 prev=110592 prevValid=1 freq=192000 submitted=120960 target=120960
+  clk GetPosition hr=00000000 pos=120914 prev=114777 prevValid=1 freq=192000 submitted=120960 target=120960
+  clk GetPosition hr=00000000 pos=126728 prev=120914 prevValid=1 freq=192000 submitted=120960 target=120960
+RESULT PASS complete=1 hr=00000000 waits=0 fills=21
+OPEN rate=192000 bits=24 wait=0 tail=2 pause=0 notify=0 initialWait=0 hr=00000000 frames=5760
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=193 prev=0 prevValid=0 freq=192000 submitted=5760 target=5760
+  clk GetPosition hr=00000000 pos=193 prev=193 prevValid=1 freq=192000 submitted=11520 target=11520
+  clk GetPosition hr=00000000 pos=8192 prev=193 prevValid=1 freq=192000 submitted=17280 target=17280
+  clk GetPosition hr=00000000 pos=12288 prev=8192 prevValid=1 freq=192000 submitted=23040 target=23040
+  clk GetPosition hr=00000000 pos=20480 prev=12288 prevValid=1 freq=192000 submitted=28800 target=28800
+  clk GetPosition hr=00000000 pos=24576 prev=20480 prevValid=1 freq=192000 submitted=34560 target=34560
+  clk GetPosition hr=00000000 pos=28672 prev=24576 prevValid=1 freq=192000 submitted=40320 target=40320
+  clk GetPosition hr=00000000 pos=36864 prev=28672 prevValid=1 freq=192000 submitted=46080 target=46080
+  clk GetPosition hr=00000000 pos=40960 prev=36864 prevValid=1 freq=192000 submitted=51840 target=51840
+  clk GetPosition hr=00000000 pos=49152 prev=40960 prevValid=1 freq=192000 submitted=57600 target=57600
+  clk GetPosition hr=00000000 pos=53248 prev=49152 prevValid=1 freq=192000 submitted=63360 target=63360
+  clk GetPosition hr=00000000 pos=57344 prev=53248 prevValid=1 freq=192000 submitted=69120 target=69120
+  clk GetPosition hr=00000000 pos=65536 prev=57344 prevValid=1 freq=192000 submitted=74880 target=74880
+  clk GetPosition hr=00000000 pos=69632 prev=65536 prevValid=1 freq=192000 submitted=80640 target=80640
+  clk GetPosition hr=00000000 pos=77824 prev=69632 prevValid=1 freq=192000 submitted=86400 target=86400
+  clk GetPosition hr=00000000 pos=81920 prev=77824 prevValid=1 freq=192000 submitted=92160 target=92160
+  clk GetPosition hr=00000000 pos=86016 prev=81920 prevValid=1 freq=192000 submitted=97920 target=97920
+  clk GetPosition hr=00000000 pos=94208 prev=86016 prevValid=1 freq=192000 submitted=103680 target=103680
+  clk GetPosition hr=00000000 pos=98304 prev=94208 prevValid=1 freq=192000 submitted=109440 target=109440
+  clk GetPosition hr=00000000 pos=106496 prev=98304 prevValid=1 freq=192000 submitted=115200 target=115200
+  clk GetPosition hr=00000000 pos=106496 prev=106496 prevValid=1 freq=192000 submitted=120960 target=120960
+  clk GetPosition hr=00000000 pos=110592 prev=106496 prevValid=1 freq=192000 submitted=120960 target=120960
+  clk GetPosition hr=00000000 pos=116911 prev=110592 prevValid=1 freq=192000 submitted=120960 target=120960
+  clk GetPosition hr=00000000 pos=123057 prev=116911 prevValid=1 freq=192000 submitted=120960 target=120960
+RESULT PASS complete=1 hr=00000000 waits=0 fills=21
+OPEN rate=192000 bits=24 wait=0 tail=1 pause=1 notify=0 initialWait=0 hr=00000000 frames=5760
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=379 prev=0 prevValid=0 freq=192000 submitted=5760 target=5760
+  clk GetPosition hr=00000000 pos=379 prev=379 prevValid=1 freq=192000 submitted=11520 target=11520
+  clk GetPosition hr=00000000 pos=8192 prev=379 prevValid=1 freq=192000 submitted=17280 target=17280
+  clk GetPosition hr=00000000 pos=12312 prev=8192 prevValid=1 freq=192000 submitted=23040 target=23040
+  clk GetPosition hr=00000000 pos=20498 prev=12312 prevValid=1 freq=192000 submitted=28800 target=28800
+  clk GetPosition hr=00000000 pos=24576 prev=20498 prevValid=1 freq=192000 submitted=34560 target=34560
+  clk GetPosition hr=00000000 pos=28672 prev=24576 prevValid=1 freq=192000 submitted=40320 target=40320
+  clk GetPosition hr=00000000 pos=36869 prev=28672 prevValid=1 freq=192000 submitted=46080 target=46080
+  clk GetPosition hr=00000000 pos=40960 prev=36869 prevValid=1 freq=192000 submitted=51840 target=51840
+  clk GetPosition hr=00000000 pos=49157 prev=40960 prevValid=1 freq=192000 submitted=57600 target=57600
+  clk GetPosition hr=00000000 pos=53248 prev=49157 prevValid=1 freq=192000 submitted=63360 target=63360
+  clk GetPosition hr=00000000 pos=57423 prev=53248 prevValid=1 freq=192000 submitted=69120 target=69120
+  clk GetPosition hr=00000000 pos=65536 prev=57423 prevValid=1 freq=192000 submitted=74880 target=74880
+  clk GetPosition hr=00000000 pos=69632 prev=65536 prevValid=1 freq=192000 submitted=80640 target=80640
+  clk GetPosition hr=00000000 pos=77824 prev=69632 prevValid=1 freq=192000 submitted=86400 target=86400
+  clk GetPosition hr=00000000 pos=82007 prev=77824 prevValid=1 freq=192000 submitted=92160 target=92160
+  clk GetPosition hr=00000000 pos=86039 prev=82007 prevValid=1 freq=192000 submitted=97920 target=97920
+  clk GetPosition hr=00000000 pos=94297 prev=86039 prevValid=1 freq=192000 submitted=103680 target=103680
+  clk GetPosition hr=00000000 pos=98330 prev=94297 prevValid=1 freq=192000 submitted=109440 target=109440
+  clk GetPosition hr=00000000 pos=106586 prev=98330 prevValid=1 freq=192000 submitted=115200 target=115200
+  clk GetPosition hr=00000000 pos=106586 prev=106586 prevValid=1 freq=192000 submitted=120960 target=120960
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=118969 prev=106586 prevValid=0 freq=192000 submitted=120960 target=120960
+  clk GetPosition hr=00000000 pos=124728 prev=118969 prevValid=1 freq=192000 submitted=120960 target=120960
+RESULT PASS complete=1 hr=00000000 waits=0 fills=21
+OPEN rate=192000 bits=16 wait=0 tail=1 pause=0 notify=0 initialWait=0 hr=00000000 frames=5760
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=192 prev=0 prevValid=0 freq=192000 submitted=5760 target=5760
+  clk GetPosition hr=00000000 pos=192 prev=192 prevValid=1 freq=192000 submitted=11520 target=11520
+  clk GetPosition hr=00000000 pos=8192 prev=192 prevValid=1 freq=192000 submitted=17280 target=17280
+  clk GetPosition hr=00000000 pos=12297 prev=8192 prevValid=1 freq=192000 submitted=23040 target=23040
+  clk GetPosition hr=00000000 pos=20480 prev=12297 prevValid=1 freq=192000 submitted=28800 target=28800
+  clk GetPosition hr=00000000 pos=24583 prev=20480 prevValid=1 freq=192000 submitted=34560 target=34560
+  clk GetPosition hr=00000000 pos=28672 prev=24583 prevValid=1 freq=192000 submitted=40320 target=40320
+  clk GetPosition hr=00000000 pos=36864 prev=28672 prevValid=1 freq=192000 submitted=46080 target=46080
+  clk GetPosition hr=00000000 pos=40960 prev=36864 prevValid=1 freq=192000 submitted=51840 target=51840
+  clk GetPosition hr=00000000 pos=49152 prev=40960 prevValid=1 freq=192000 submitted=57600 target=57600
+  clk GetPosition hr=00000000 pos=53296 prev=49152 prevValid=1 freq=192000 submitted=63360 target=63360
+  clk GetPosition hr=00000000 pos=57344 prev=53296 prevValid=1 freq=192000 submitted=69120 target=69120
+  clk GetPosition hr=00000000 pos=65545 prev=57344 prevValid=1 freq=192000 submitted=74880 target=74880
+  clk GetPosition hr=00000000 pos=69632 prev=65545 prevValid=1 freq=192000 submitted=80640 target=80640
+  clk GetPosition hr=00000000 pos=77824 prev=69632 prevValid=1 freq=192000 submitted=86400 target=86400
+  clk GetPosition hr=00000000 pos=81920 prev=77824 prevValid=1 freq=192000 submitted=92160 target=92160
+  clk GetPosition hr=00000000 pos=86016 prev=81920 prevValid=1 freq=192000 submitted=97920 target=97920
+  clk GetPosition hr=00000000 pos=94208 prev=86016 prevValid=1 freq=192000 submitted=103680 target=103680
+  clk GetPosition hr=00000000 pos=98304 prev=94208 prevValid=1 freq=192000 submitted=109440 target=109440
+  clk GetPosition hr=00000000 pos=106496 prev=98304 prevValid=1 freq=192000 submitted=115200 target=115200
+  clk GetPosition hr=00000000 pos=106542 prev=106496 prevValid=1 freq=192000 submitted=120960 target=120960
+  clk GetPosition hr=00000000 pos=110592 prev=106542 prevValid=1 freq=192000 submitted=120960 target=120960
+  clk GetPosition hr=00000000 pos=115765 prev=110592 prevValid=1 freq=192000 submitted=120960 target=120960
+  clk GetPosition hr=00000000 pos=121912 prev=115765 prevValid=1 freq=192000 submitted=120960 target=120960
+RESULT PASS complete=1 hr=00000000 waits=0 fills=21
+OPEN rate=192000 bits=24 wait=0 tail=1 pause=0 notify=1 initialWait=1 hr=00000000 frames=5760
+  api IAudioClient::Start (post-prime) hr=00000000
+  api resume Prepare hr=00000000 (Start follows, then fill)
+  api IAudioClient::Start (resume, before fill) hr=00000000
+  clk GetPosition hr=00000000 pos=191 prev=0 prevValid=0 freq=192000 submitted=0 target=0
+  clk GetPosition hr=00000000 pos=191 prev=191 prevValid=1 freq=192000 submitted=5760 target=23231
+  clk GetPosition hr=00000000 pos=191 prev=191 prevValid=1 freq=192000 submitted=11520 target=28991
+  clk GetPosition hr=00000000 pos=191 prev=191 prevValid=1 freq=192000 submitted=17280 target=34751
+  clk GetPosition hr=00000000 pos=8265 prev=191 prevValid=1 freq=192000 submitted=23040 target=40511
+  clk GetPosition hr=00000000 pos=12507 prev=8265 prevValid=1 freq=192000 submitted=28800 target=46271
+  clk GetPosition hr=00000000 pos=20599 prev=12507 prevValid=1 freq=192000 submitted=34560 target=52031
+  clk GetPosition hr=00000000 pos=24759 prev=20599 prevValid=1 freq=192000 submitted=40320 target=57791
+  clk GetPosition hr=00000000 pos=28806 prev=24759 prevValid=1 freq=192000 submitted=46080 target=63551
+  clk GetPosition hr=00000000 pos=37071 prev=28806 prevValid=1 freq=192000 submitted=51840 target=69311
+  clk GetPosition hr=00000000 pos=41130 prev=37071 prevValid=1 freq=192000 submitted=57600 target=75071
+  clk GetPosition hr=00000000 pos=49204 prev=41130 prevValid=1 freq=192000 submitted=63360 target=80831
+  clk GetPosition hr=00000000 pos=53427 prev=49204 prevValid=1 freq=192000 submitted=69120 target=86591
+  clk GetPosition hr=00000000 pos=57460 prev=53427 prevValid=1 freq=192000 submitted=74880 target=92351
+  clk GetPosition hr=00000000 pos=65738 prev=57460 prevValid=1 freq=192000 submitted=80640 target=98111
+  clk GetPosition hr=00000000 pos=69773 prev=65738 prevValid=1 freq=192000 submitted=86400 target=103871
+  clk GetPosition hr=00000000 pos=78029 prev=69773 prevValid=1 freq=192000 submitted=92160 target=109631
+  clk GetPosition hr=00000000 pos=82081 prev=78029 prevValid=1 freq=192000 submitted=97920 target=115391
+  clk GetPosition hr=00000000 pos=86116 prev=82081 prevValid=1 freq=192000 submitted=103680 target=121151
+  clk GetPosition hr=00000000 pos=94372 prev=86116 prevValid=1 freq=192000 submitted=109440 target=126911
+  clk GetPosition hr=00000000 pos=98403 prev=94372 prevValid=1 freq=192000 submitted=115200 target=132671
+  clk GetPosition hr=00000000 pos=98403 prev=98403 prevValid=1 freq=192000 submitted=120960 target=138431
+  clk GetPosition hr=00000000 pos=102471 prev=98403 prevValid=1 freq=192000 submitted=120960 target=138431
+  clk GetPosition hr=00000000 pos=106692 prev=102471 prevValid=1 freq=192000 submitted=120960 target=138431
+  clk GetPosition hr=00000000 pos=110775 prev=106692 prevValid=1 freq=192000 submitted=120960 target=138431
+  clk GetPosition hr=00000000 pos=117493 prev=110775 prevValid=1 freq=192000 submitted=120960 target=138431
+  clk GetPosition hr=00000000 pos=123488 prev=117493 prevValid=1 freq=192000 submitted=120960 target=138431
+  clk GetPosition hr=00000000 pos=129631 prev=123488 prevValid=1 freq=192000 submitted=120960 target=138431
+  clk GetPosition hr=00000000 pos=135757 prev=129631 prevValid=1 freq=192000 submitted=120960 target=138431
+  clk GetPosition hr=00000000 pos=141710 prev=135757 prevValid=1 freq=192000 submitted=120960 target=138431
+RESULT PASS complete=1 hr=00000000 waits=1 fills=21
+OPEN rate=192000 bits=24 wait=1 tail=0 pause=0 notify=0 initialWait=0 hr=00000000 frames=5760
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=192 prev=0 prevValid=0 freq=192000 submitted=5760 target=5760
+  clk GetPosition hr=00000000 pos=192 prev=192 prevValid=1 freq=192000 submitted=11520 target=11520
+  clk GetPosition hr=00000000 pos=8192 prev=192 prevValid=1 freq=192000 submitted=17280 target=17280
+  clk GetPosition hr=00000000 pos=12288 prev=8192 prevValid=1 freq=192000 submitted=23040 target=23040
+  clk GetPosition hr=00000000 pos=20480 prev=12288 prevValid=1 freq=192000 submitted=28800 target=28800
+  clk GetPosition hr=00000000 pos=24600 prev=20480 prevValid=1 freq=192000 submitted=34560 target=34560
+  clk GetPosition hr=00000000 pos=28672 prev=24600 prevValid=1 freq=192000 submitted=40320 target=40320
+  clk GetPosition hr=00000000 pos=36864 prev=28672 prevValid=1 freq=192000 submitted=46080 target=46080
+  clk GetPosition hr=00000000 pos=40960 prev=36864 prevValid=1 freq=192000 submitted=51840 target=51840
+  clk GetPosition hr=00000000 pos=49152 prev=40960 prevValid=1 freq=192000 submitted=57600 target=57600
+  clk GetPosition hr=00000000 pos=53248 prev=49152 prevValid=1 freq=192000 submitted=63360 target=63360
+  clk GetPosition hr=00000000 pos=57344 prev=53248 prevValid=1 freq=192000 submitted=69120 target=69120
+  clk GetPosition hr=00000000 pos=65536 prev=57344 prevValid=1 freq=192000 submitted=74880 target=74880
+  clk GetPosition hr=00000000 pos=69632 prev=65536 prevValid=1 freq=192000 submitted=80640 target=80640
+  clk GetPosition hr=00000000 pos=77824 prev=69632 prevValid=1 freq=192000 submitted=86400 target=86400
+  clk GetPosition hr=00000000 pos=81920 prev=77824 prevValid=1 freq=192000 submitted=92160 target=92160
+  clk GetPosition hr=00000000 pos=86016 prev=81920 prevValid=1 freq=192000 submitted=97920 target=97920
+  clk GetPosition hr=00000000 pos=94208 prev=86016 prevValid=1 freq=192000 submitted=103680 target=103680
+  clk GetPosition hr=00000000 pos=98304 prev=94208 prevValid=1 freq=192000 submitted=109440 target=109440
+  api resume Prepare hr=00000000 (Start follows, then fill)
+  api IAudioClient::Start (resume, before fill) hr=00000000
+  clk GetPosition hr=00000000 pos=114879 prev=98304 prevValid=0 freq=192000 submitted=115200 target=115200
+  clk GetPosition hr=00000000 pos=114879 prev=114879 prevValid=1 freq=192000 submitted=120960 target=120960
+  clk GetPosition hr=00000000 pos=114879 prev=114879 prevValid=1 freq=192000 submitted=120960 target=120960
+  clk GetPosition hr=00000000 pos=120639 prev=114879 prevValid=1 freq=192000 submitted=120960 target=120960
+  clk GetPosition hr=00000000 pos=126532 prev=120639 prevValid=1 freq=192000 submitted=120960 target=120960
+RESULT PASS complete=1 hr=00000000 waits=1 fills=21
+OPEN rate=192000 bits=24 wait=1 tail=1 pause=0 notify=0 initialWait=0 hr=00000000 frames=5760
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=192 prev=0 prevValid=0 freq=192000 submitted=5760 target=5760
+  clk GetPosition hr=00000000 pos=192 prev=192 prevValid=1 freq=192000 submitted=11520 target=11520
+  clk GetPosition hr=00000000 pos=8192 prev=192 prevValid=1 freq=192000 submitted=17280 target=17280
+  clk GetPosition hr=00000000 pos=12288 prev=8192 prevValid=1 freq=192000 submitted=23040 target=23040
+  clk GetPosition hr=00000000 pos=20480 prev=12288 prevValid=1 freq=192000 submitted=28800 target=28800
+  clk GetPosition hr=00000000 pos=24576 prev=20480 prevValid=1 freq=192000 submitted=34560 target=34560
+  clk GetPosition hr=00000000 pos=28672 prev=24576 prevValid=1 freq=192000 submitted=40320 target=40320
+  clk GetPosition hr=00000000 pos=36864 prev=28672 prevValid=1 freq=192000 submitted=46080 target=46080
+  clk GetPosition hr=00000000 pos=40960 prev=36864 prevValid=1 freq=192000 submitted=51840 target=51840
+  clk GetPosition hr=00000000 pos=49152 prev=40960 prevValid=1 freq=192000 submitted=57600 target=57600
+  clk GetPosition hr=00000000 pos=53248 prev=49152 prevValid=1 freq=192000 submitted=63360 target=63360
+  clk GetPosition hr=00000000 pos=57344 prev=53248 prevValid=1 freq=192000 submitted=69120 target=69120
+  clk GetPosition hr=00000000 pos=65536 prev=57344 prevValid=1 freq=192000 submitted=74880 target=74880
+  clk GetPosition hr=00000000 pos=69632 prev=65536 prevValid=1 freq=192000 submitted=80640 target=80640
+  clk GetPosition hr=00000000 pos=77824 prev=69632 prevValid=1 freq=192000 submitted=86400 target=86400
+  clk GetPosition hr=00000000 pos=81920 prev=77824 prevValid=1 freq=192000 submitted=92160 target=92160
+  clk GetPosition hr=00000000 pos=86016 prev=81920 prevValid=1 freq=192000 submitted=97920 target=97920
+  clk GetPosition hr=00000000 pos=94208 prev=86016 prevValid=1 freq=192000 submitted=103680 target=103680
+  clk GetPosition hr=00000000 pos=98304 prev=94208 prevValid=1 freq=192000 submitted=109440 target=109440
+  api resume Prepare hr=00000000 (Start follows, then fill)
+  api IAudioClient::Start (resume, before fill) hr=00000000
+  clk GetPosition hr=00000000 pos=114726 prev=98304 prevValid=0 freq=192000 submitted=115200 target=115200
+  clk GetPosition hr=00000000 pos=114880 prev=114726 prevValid=1 freq=192000 submitted=120960 target=120960
+  clk GetPosition hr=00000000 pos=114880 prev=114880 prevValid=1 freq=192000 submitted=120960 target=120960
+  clk GetPosition hr=00000000 pos=120840 prev=114880 prevValid=1 freq=192000 submitted=120960 target=120960
+  clk GetPosition hr=00000000 pos=126792 prev=120840 prevValid=1 freq=192000 submitted=120960 target=120960
+RESULT PASS complete=1 hr=00000000 waits=1 fills=21
+OPEN rate=192000 bits=24 wait=1 tail=2 pause=0 notify=0 initialWait=0 hr=00000000 frames=5760
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=0 prev=0 prevValid=0 freq=192000 submitted=5760 target=5760
+  clk GetPosition hr=00000000 pos=191 prev=0 prevValid=1 freq=192000 submitted=11520 target=11520
+  clk GetPosition hr=00000000 pos=8192 prev=191 prevValid=1 freq=192000 submitted=17280 target=17280
+  clk GetPosition hr=00000000 pos=12288 prev=8192 prevValid=1 freq=192000 submitted=23040 target=23040
+  clk GetPosition hr=00000000 pos=20480 prev=12288 prevValid=1 freq=192000 submitted=28800 target=28800
+  clk GetPosition hr=00000000 pos=24576 prev=20480 prevValid=1 freq=192000 submitted=34560 target=34560
+  clk GetPosition hr=00000000 pos=28672 prev=24576 prevValid=1 freq=192000 submitted=40320 target=40320
+  clk GetPosition hr=00000000 pos=36864 prev=28672 prevValid=1 freq=192000 submitted=46080 target=46080
+  clk GetPosition hr=00000000 pos=40960 prev=36864 prevValid=1 freq=192000 submitted=51840 target=51840
+  clk GetPosition hr=00000000 pos=49152 prev=40960 prevValid=1 freq=192000 submitted=57600 target=57600
+  clk GetPosition hr=00000000 pos=53248 prev=49152 prevValid=1 freq=192000 submitted=63360 target=63360
+  clk GetPosition hr=00000000 pos=57344 prev=53248 prevValid=1 freq=192000 submitted=69120 target=69120
+  clk GetPosition hr=00000000 pos=65536 prev=57344 prevValid=1 freq=192000 submitted=74880 target=74880
+  clk GetPosition hr=00000000 pos=69632 prev=65536 prevValid=1 freq=192000 submitted=80640 target=80640
+  clk GetPosition hr=00000000 pos=77824 prev=69632 prevValid=1 freq=192000 submitted=86400 target=86400
+  clk GetPosition hr=00000000 pos=81920 prev=77824 prevValid=1 freq=192000 submitted=92160 target=92160
+  clk GetPosition hr=00000000 pos=86016 prev=81920 prevValid=1 freq=192000 submitted=97920 target=97920
+  clk GetPosition hr=00000000 pos=94208 prev=86016 prevValid=1 freq=192000 submitted=103680 target=103680
+  clk GetPosition hr=00000000 pos=98304 prev=94208 prevValid=1 freq=192000 submitted=109440 target=109440
+  api resume Prepare hr=00000000 (Start follows, then fill)
+  api IAudioClient::Start (resume, before fill) hr=00000000
+  clk GetPosition hr=00000000 pos=114688 prev=98304 prevValid=0 freq=192000 submitted=115200 target=115200
+  clk GetPosition hr=00000000 pos=114878 prev=114688 prevValid=1 freq=192000 submitted=120960 target=120960
+  clk GetPosition hr=00000000 pos=114878 prev=114878 prevValid=1 freq=192000 submitted=120960 target=120960
+  clk GetPosition hr=00000000 pos=120477 prev=114878 prevValid=1 freq=192000 submitted=120960 target=120960
+  clk GetPosition hr=00000000 pos=126443 prev=120477 prevValid=1 freq=192000 submitted=120960 target=120960
+RESULT PASS complete=1 hr=00000000 waits=1 fills=21
+OPEN rate=192000 bits=24 wait=1 tail=1 pause=1 notify=0 initialWait=0 hr=00000000 frames=5760
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=0 prev=0 prevValid=0 freq=192000 submitted=5760 target=5760
+  clk GetPosition hr=00000000 pos=183 prev=0 prevValid=1 freq=192000 submitted=11520 target=11520
+  clk GetPosition hr=00000000 pos=8192 prev=183 prevValid=1 freq=192000 submitted=17280 target=17280
+  clk GetPosition hr=00000000 pos=12288 prev=8192 prevValid=1 freq=192000 submitted=23040 target=23040
+  clk GetPosition hr=00000000 pos=20480 prev=12288 prevValid=1 freq=192000 submitted=28800 target=28800
+  clk GetPosition hr=00000000 pos=24576 prev=20480 prevValid=1 freq=192000 submitted=34560 target=34560
+  clk GetPosition hr=00000000 pos=28672 prev=24576 prevValid=1 freq=192000 submitted=40320 target=40320
+  clk GetPosition hr=00000000 pos=36864 prev=28672 prevValid=1 freq=192000 submitted=46080 target=46080
+  clk GetPosition hr=00000000 pos=40960 prev=36864 prevValid=1 freq=192000 submitted=51840 target=51840
+  clk GetPosition hr=00000000 pos=49152 prev=40960 prevValid=1 freq=192000 submitted=57600 target=57600
+  clk GetPosition hr=00000000 pos=53248 prev=49152 prevValid=1 freq=192000 submitted=63360 target=63360
+  clk GetPosition hr=00000000 pos=57344 prev=53248 prevValid=1 freq=192000 submitted=69120 target=69120
+  clk GetPosition hr=00000000 pos=65536 prev=57344 prevValid=1 freq=192000 submitted=74880 target=74880
+  clk GetPosition hr=00000000 pos=69632 prev=65536 prevValid=1 freq=192000 submitted=80640 target=80640
+  clk GetPosition hr=00000000 pos=77824 prev=69632 prevValid=1 freq=192000 submitted=86400 target=86400
+  clk GetPosition hr=00000000 pos=81920 prev=77824 prevValid=1 freq=192000 submitted=92160 target=92160
+  clk GetPosition hr=00000000 pos=86016 prev=81920 prevValid=1 freq=192000 submitted=97920 target=97920
+  clk GetPosition hr=00000000 pos=94208 prev=86016 prevValid=1 freq=192000 submitted=103680 target=103680
+  clk GetPosition hr=00000000 pos=98304 prev=94208 prevValid=1 freq=192000 submitted=109440 target=109440
+  api resume Prepare hr=00000000 (Start follows, then fill)
+  api IAudioClient::Start (resume, before fill) hr=00000000
+  clk GetPosition hr=00000000 pos=114882 prev=98304 prevValid=0 freq=192000 submitted=115200 target=115200
+  clk GetPosition hr=00000000 pos=114882 prev=114882 prevValid=1 freq=192000 submitted=120960 target=120960
+  clk GetPosition hr=00000000 pos=114882 prev=114882 prevValid=1 freq=192000 submitted=120960 target=120960
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=124665 prev=114882 prevValid=0 freq=192000 submitted=120960 target=120960
+RESULT PASS complete=1 hr=00000000 waits=1 fills=21
+OPEN rate=192000 bits=16 wait=1 tail=1 pause=0 notify=0 initialWait=0 hr=00000000 frames=5760
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=192 prev=0 prevValid=0 freq=192000 submitted=5760 target=5760
+  clk GetPosition hr=00000000 pos=192 prev=192 prevValid=1 freq=192000 submitted=11520 target=11520
+  clk GetPosition hr=00000000 pos=8192 prev=192 prevValid=1 freq=192000 submitted=17280 target=17280
+  clk GetPosition hr=00000000 pos=12288 prev=8192 prevValid=1 freq=192000 submitted=23040 target=23040
+  clk GetPosition hr=00000000 pos=20480 prev=12288 prevValid=1 freq=192000 submitted=28800 target=28800
+  clk GetPosition hr=00000000 pos=24576 prev=20480 prevValid=1 freq=192000 submitted=34560 target=34560
+  clk GetPosition hr=00000000 pos=28672 prev=24576 prevValid=1 freq=192000 submitted=40320 target=40320
+  clk GetPosition hr=00000000 pos=36864 prev=28672 prevValid=1 freq=192000 submitted=46080 target=46080
+  clk GetPosition hr=00000000 pos=40960 prev=36864 prevValid=1 freq=192000 submitted=51840 target=51840
+  clk GetPosition hr=00000000 pos=49152 prev=40960 prevValid=1 freq=192000 submitted=57600 target=57600
+  clk GetPosition hr=00000000 pos=53248 prev=49152 prevValid=1 freq=192000 submitted=63360 target=63360
+  clk GetPosition hr=00000000 pos=57344 prev=53248 prevValid=1 freq=192000 submitted=69120 target=69120
+  clk GetPosition hr=00000000 pos=65536 prev=57344 prevValid=1 freq=192000 submitted=74880 target=74880
+  clk GetPosition hr=00000000 pos=69632 prev=65536 prevValid=1 freq=192000 submitted=80640 target=80640
+  clk GetPosition hr=00000000 pos=77824 prev=69632 prevValid=1 freq=192000 submitted=86400 target=86400
+  clk GetPosition hr=00000000 pos=81920 prev=77824 prevValid=1 freq=192000 submitted=92160 target=92160
+  clk GetPosition hr=00000000 pos=86016 prev=81920 prevValid=1 freq=192000 submitted=97920 target=97920
+  clk GetPosition hr=00000000 pos=94208 prev=86016 prevValid=1 freq=192000 submitted=103680 target=103680
+  clk GetPosition hr=00000000 pos=98304 prev=94208 prevValid=1 freq=192000 submitted=109440 target=109440
+  api resume Prepare hr=00000000 (Start follows, then fill)
+  api IAudioClient::Start (resume, before fill) hr=00000000
+  clk GetPosition hr=00000000 pos=114688 prev=98304 prevValid=0 freq=192000 submitted=115200 target=115200
+  clk GetPosition hr=00000000 pos=114688 prev=114688 prevValid=1 freq=192000 submitted=120960 target=120960
+  clk GetPosition hr=00000000 pos=114879 prev=114688 prevValid=1 freq=192000 submitted=120960 target=120960
+  clk GetPosition hr=00000000 pos=120629 prev=114879 prevValid=1 freq=192000 submitted=120960 target=120960
+  clk GetPosition hr=00000000 pos=126382 prev=120629 prevValid=1 freq=192000 submitted=120960 target=120960
+RESULT PASS complete=1 hr=00000000 waits=1 fills=21
+OPEN rate=192000 bits=24 wait=1 tail=1 pause=0 notify=1 initialWait=1 hr=00000000 frames=5760
+  api IAudioClient::Start (post-prime) hr=00000000
+  api resume Prepare hr=00000000 (Start follows, then fill)
+  api IAudioClient::Start (resume, before fill) hr=00000000
+  clk GetPosition hr=00000000 pos=189 prev=0 prevValid=0 freq=192000 submitted=0 target=0
+  clk GetPosition hr=00000000 pos=189 prev=189 prevValid=1 freq=192000 submitted=5760 target=23229
+  clk GetPosition hr=00000000 pos=189 prev=189 prevValid=1 freq=192000 submitted=11520 target=28989
+  clk GetPosition hr=00000000 pos=189 prev=189 prevValid=1 freq=192000 submitted=17280 target=34749
+  clk GetPosition hr=00000000 pos=8304 prev=189 prevValid=1 freq=192000 submitted=23040 target=40509
+  clk GetPosition hr=00000000 pos=12339 prev=8304 prevValid=1 freq=192000 submitted=28800 target=46269
+  clk GetPosition hr=00000000 pos=20624 prev=12339 prevValid=1 freq=192000 submitted=34560 target=52029
+  clk GetPosition hr=00000000 pos=24578 prev=20624 prevValid=1 freq=192000 submitted=40320 target=57789
+  clk GetPosition hr=00000000 pos=28813 prev=24578 prevValid=1 freq=192000 submitted=46080 target=63549
+  clk GetPosition hr=00000000 pos=36949 prev=28813 prevValid=1 freq=192000 submitted=51840 target=69309
+  clk GetPosition hr=00000000 pos=40981 prev=36949 prevValid=1 freq=192000 submitted=57600 target=75069
+  clk GetPosition hr=00000000 pos=49183 prev=40981 prevValid=1 freq=192000 submitted=63360 target=80829
+  clk GetPosition hr=00000000 pos=53436 prev=49183 prevValid=1 freq=192000 submitted=69120 target=86589
+  clk GetPosition hr=00000000 pos=57454 prev=53436 prevValid=1 freq=192000 submitted=74880 target=92349
+  clk GetPosition hr=00000000 pos=65555 prev=57454 prevValid=1 freq=192000 submitted=80640 target=98109
+  clk GetPosition hr=00000000 pos=69779 prev=65555 prevValid=1 freq=192000 submitted=86400 target=103869
+  clk GetPosition hr=00000000 pos=77841 prev=69779 prevValid=1 freq=192000 submitted=92160 target=109629
+  clk GetPosition hr=00000000 pos=82069 prev=77841 prevValid=1 freq=192000 submitted=97920 target=115389
+  clk GetPosition hr=00000000 pos=86044 prev=82069 prevValid=1 freq=192000 submitted=103680 target=121149
+  clk GetPosition hr=00000000 pos=94297 prev=86044 prevValid=1 freq=192000 submitted=109440 target=126909
+  api resume Prepare hr=00000000 (Start follows, then fill)
+  api IAudioClient::Start (resume, before fill) hr=00000000
+  clk GetPosition hr=00000000 pos=114871 prev=94297 prevValid=0 freq=192000 submitted=115200 target=132669
+  clk GetPosition hr=00000000 pos=114871 prev=114871 prevValid=1 freq=192000 submitted=120960 target=138429
+  clk GetPosition hr=00000000 pos=114871 prev=114871 prevValid=1 freq=192000 submitted=120960 target=138429
+  clk GetPosition hr=00000000 pos=120637 prev=114871 prevValid=1 freq=192000 submitted=120960 target=138429
+  clk GetPosition hr=00000000 pos=126607 prev=120637 prevValid=1 freq=192000 submitted=120960 target=138429
+  clk GetPosition hr=00000000 pos=132293 prev=126607 prevValid=1 freq=192000 submitted=120960 target=138429
+  clk GetPosition hr=00000000 pos=138406 prev=132293 prevValid=1 freq=192000 submitted=120960 target=138429
+  clk GetPosition hr=00000000 pos=144391 prev=138406 prevValid=1 freq=192000 submitted=120960 target=138429
+RESULT PASS complete=1 hr=00000000 waits=2 fills=21
+OPEN rate=96000 bits=24 wait=0 tail=0 pause=0 notify=0 initialWait=0 hr=00000000 frames=2880
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=96 prev=0 prevValid=0 freq=96000 submitted=2880 target=2880
+  clk GetPosition hr=00000000 pos=191 prev=96 prevValid=1 freq=96000 submitted=5760 target=5760
+  clk GetPosition hr=00000000 pos=4096 prev=191 prevValid=1 freq=96000 submitted=8640 target=8640
+  clk GetPosition hr=00000000 pos=6144 prev=4096 prevValid=1 freq=96000 submitted=11520 target=11520
+  clk GetPosition hr=00000000 pos=10240 prev=6144 prevValid=1 freq=96000 submitted=14400 target=14400
+  clk GetPosition hr=00000000 pos=12288 prev=10240 prevValid=1 freq=96000 submitted=17280 target=17280
+  clk GetPosition hr=00000000 pos=14336 prev=12288 prevValid=1 freq=96000 submitted=20160 target=20160
+  clk GetPosition hr=00000000 pos=18432 prev=14336 prevValid=1 freq=96000 submitted=23040 target=23040
+  clk GetPosition hr=00000000 pos=20480 prev=18432 prevValid=1 freq=96000 submitted=25920 target=25920
+  clk GetPosition hr=00000000 pos=24576 prev=20480 prevValid=1 freq=96000 submitted=28800 target=28800
+  clk GetPosition hr=00000000 pos=26624 prev=24576 prevValid=1 freq=96000 submitted=31680 target=31680
+  clk GetPosition hr=00000000 pos=28672 prev=26624 prevValid=1 freq=96000 submitted=34560 target=34560
+  clk GetPosition hr=00000000 pos=32768 prev=28672 prevValid=1 freq=96000 submitted=37440 target=37440
+  clk GetPosition hr=00000000 pos=34816 prev=32768 prevValid=1 freq=96000 submitted=40320 target=40320
+  clk GetPosition hr=00000000 pos=38912 prev=34816 prevValid=1 freq=96000 submitted=43200 target=43200
+  clk GetPosition hr=00000000 pos=40960 prev=38912 prevValid=1 freq=96000 submitted=46080 target=46080
+  clk GetPosition hr=00000000 pos=43008 prev=40960 prevValid=1 freq=96000 submitted=48960 target=48960
+  clk GetPosition hr=00000000 pos=47104 prev=43008 prevValid=1 freq=96000 submitted=51840 target=51840
+  clk GetPosition hr=00000000 pos=49152 prev=47104 prevValid=1 freq=96000 submitted=54720 target=54720
+  clk GetPosition hr=00000000 pos=53248 prev=49152 prevValid=1 freq=96000 submitted=57600 target=57600
+  clk GetPosition hr=00000000 pos=53248 prev=53248 prevValid=1 freq=96000 submitted=60480 target=60480
+  clk GetPosition hr=00000000 pos=55296 prev=53248 prevValid=1 freq=96000 submitted=60480 target=60480
+  clk GetPosition hr=00000000 pos=57630 prev=55296 prevValid=1 freq=96000 submitted=60480 target=60480
+  clk GetPosition hr=00000000 pos=60504 prev=57630 prevValid=1 freq=96000 submitted=60480 target=60480
+RESULT PASS complete=1 hr=00000000 waits=0 fills=21
+OPEN rate=96000 bits=24 wait=0 tail=1 pause=0 notify=0 initialWait=0 hr=00000000 frames=2880
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=91 prev=0 prevValid=0 freq=96000 submitted=2880 target=2880
+  clk GetPosition hr=00000000 pos=91 prev=91 prevValid=1 freq=96000 submitted=5760 target=5760
+  clk GetPosition hr=00000000 pos=4096 prev=91 prevValid=1 freq=96000 submitted=8640 target=8640
+  clk GetPosition hr=00000000 pos=6144 prev=4096 prevValid=1 freq=96000 submitted=11520 target=11520
+  clk GetPosition hr=00000000 pos=10240 prev=6144 prevValid=1 freq=96000 submitted=14400 target=14400
+  clk GetPosition hr=00000000 pos=12288 prev=10240 prevValid=1 freq=96000 submitted=17280 target=17280
+  clk GetPosition hr=00000000 pos=14336 prev=12288 prevValid=1 freq=96000 submitted=20160 target=20160
+  clk GetPosition hr=00000000 pos=18432 prev=14336 prevValid=1 freq=96000 submitted=23040 target=23040
+  clk GetPosition hr=00000000 pos=20480 prev=18432 prevValid=1 freq=96000 submitted=25920 target=25920
+  clk GetPosition hr=00000000 pos=24576 prev=20480 prevValid=1 freq=96000 submitted=28800 target=28800
+  clk GetPosition hr=00000000 pos=26624 prev=24576 prevValid=1 freq=96000 submitted=31680 target=31680
+  clk GetPosition hr=00000000 pos=28672 prev=26624 prevValid=1 freq=96000 submitted=34560 target=34560
+  clk GetPosition hr=00000000 pos=32768 prev=28672 prevValid=1 freq=96000 submitted=37440 target=37440
+  clk GetPosition hr=00000000 pos=34816 prev=32768 prevValid=1 freq=96000 submitted=40320 target=40320
+  clk GetPosition hr=00000000 pos=38912 prev=34816 prevValid=1 freq=96000 submitted=43200 target=43200
+  clk GetPosition hr=00000000 pos=40960 prev=38912 prevValid=1 freq=96000 submitted=46080 target=46080
+  clk GetPosition hr=00000000 pos=43008 prev=40960 prevValid=1 freq=96000 submitted=48960 target=48960
+  clk GetPosition hr=00000000 pos=47104 prev=43008 prevValid=1 freq=96000 submitted=51840 target=51840
+  clk GetPosition hr=00000000 pos=49152 prev=47104 prevValid=1 freq=96000 submitted=54720 target=54720
+  clk GetPosition hr=00000000 pos=53248 prev=49152 prevValid=1 freq=96000 submitted=57600 target=57600
+  clk GetPosition hr=00000000 pos=53248 prev=53248 prevValid=1 freq=96000 submitted=60480 target=60480
+  clk GetPosition hr=00000000 pos=55296 prev=53248 prevValid=1 freq=96000 submitted=60480 target=60480
+  clk GetPosition hr=00000000 pos=58479 prev=55296 prevValid=1 freq=96000 submitted=60480 target=60480
+  clk GetPosition hr=00000000 pos=61552 prev=58479 prevValid=1 freq=96000 submitted=60480 target=60480
+RESULT PASS complete=1 hr=00000000 waits=0 fills=21
+OPEN rate=96000 bits=24 wait=0 tail=2 pause=0 notify=0 initialWait=0 hr=00000000 frames=2880
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=52 prev=0 prevValid=0 freq=96000 submitted=2880 target=2880
+  clk GetPosition hr=00000000 pos=95 prev=52 prevValid=1 freq=96000 submitted=5760 target=5760
+  clk GetPosition hr=00000000 pos=4096 prev=95 prevValid=1 freq=96000 submitted=8640 target=8640
+  clk GetPosition hr=00000000 pos=6144 prev=4096 prevValid=1 freq=96000 submitted=11520 target=11520
+  clk GetPosition hr=00000000 pos=10240 prev=6144 prevValid=1 freq=96000 submitted=14400 target=14400
+  clk GetPosition hr=00000000 pos=12288 prev=10240 prevValid=1 freq=96000 submitted=17280 target=17280
+  clk GetPosition hr=00000000 pos=14336 prev=12288 prevValid=1 freq=96000 submitted=20160 target=20160
+  clk GetPosition hr=00000000 pos=18432 prev=14336 prevValid=1 freq=96000 submitted=23040 target=23040
+  clk GetPosition hr=00000000 pos=20480 prev=18432 prevValid=1 freq=96000 submitted=25920 target=25920
+  clk GetPosition hr=00000000 pos=24576 prev=20480 prevValid=1 freq=96000 submitted=28800 target=28800
+  clk GetPosition hr=00000000 pos=26624 prev=24576 prevValid=1 freq=96000 submitted=31680 target=31680
+  clk GetPosition hr=00000000 pos=28672 prev=26624 prevValid=1 freq=96000 submitted=34560 target=34560
+  clk GetPosition hr=00000000 pos=32768 prev=28672 prevValid=1 freq=96000 submitted=37440 target=37440
+  clk GetPosition hr=00000000 pos=34816 prev=32768 prevValid=1 freq=96000 submitted=40320 target=40320
+  clk GetPosition hr=00000000 pos=38912 prev=34816 prevValid=1 freq=96000 submitted=43200 target=43200
+  clk GetPosition hr=00000000 pos=40960 prev=38912 prevValid=1 freq=96000 submitted=46080 target=46080
+  clk GetPosition hr=00000000 pos=43008 prev=40960 prevValid=1 freq=96000 submitted=48960 target=48960
+  clk GetPosition hr=00000000 pos=47104 prev=43008 prevValid=1 freq=96000 submitted=51840 target=51840
+  clk GetPosition hr=00000000 pos=49152 prev=47104 prevValid=1 freq=96000 submitted=54720 target=54720
+  clk GetPosition hr=00000000 pos=53248 prev=49152 prevValid=1 freq=96000 submitted=57600 target=57600
+  clk GetPosition hr=00000000 pos=53248 prev=53248 prevValid=1 freq=96000 submitted=60480 target=60480
+  clk GetPosition hr=00000000 pos=55296 prev=53248 prevValid=1 freq=96000 submitted=60480 target=60480
+  clk GetPosition hr=00000000 pos=58048 prev=55296 prevValid=1 freq=96000 submitted=60480 target=60480
+  clk GetPosition hr=00000000 pos=61107 prev=58048 prevValid=1 freq=96000 submitted=60480 target=60480
+RESULT PASS complete=1 hr=00000000 waits=0 fills=21
+OPEN rate=96000 bits=24 wait=0 tail=1 pause=1 notify=0 initialWait=0 hr=00000000 frames=2880
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=96 prev=0 prevValid=0 freq=96000 submitted=2880 target=2880
+  clk GetPosition hr=00000000 pos=96 prev=96 prevValid=1 freq=96000 submitted=5760 target=5760
+  clk GetPosition hr=00000000 pos=4096 prev=96 prevValid=1 freq=96000 submitted=8640 target=8640
+  clk GetPosition hr=00000000 pos=6144 prev=4096 prevValid=1 freq=96000 submitted=11520 target=11520
+  clk GetPosition hr=00000000 pos=10240 prev=6144 prevValid=1 freq=96000 submitted=14400 target=14400
+  clk GetPosition hr=00000000 pos=12288 prev=10240 prevValid=1 freq=96000 submitted=17280 target=17280
+  clk GetPosition hr=00000000 pos=14336 prev=12288 prevValid=1 freq=96000 submitted=20160 target=20160
+  clk GetPosition hr=00000000 pos=18432 prev=14336 prevValid=1 freq=96000 submitted=23040 target=23040
+  clk GetPosition hr=00000000 pos=20480 prev=18432 prevValid=1 freq=96000 submitted=25920 target=25920
+  clk GetPosition hr=00000000 pos=24576 prev=20480 prevValid=1 freq=96000 submitted=28800 target=28800
+  clk GetPosition hr=00000000 pos=26624 prev=24576 prevValid=1 freq=96000 submitted=31680 target=31680
+  clk GetPosition hr=00000000 pos=28672 prev=26624 prevValid=1 freq=96000 submitted=34560 target=34560
+  clk GetPosition hr=00000000 pos=32768 prev=28672 prevValid=1 freq=96000 submitted=37440 target=37440
+  clk GetPosition hr=00000000 pos=34816 prev=32768 prevValid=1 freq=96000 submitted=40320 target=40320
+  clk GetPosition hr=00000000 pos=38912 prev=34816 prevValid=1 freq=96000 submitted=43200 target=43200
+  clk GetPosition hr=00000000 pos=40960 prev=38912 prevValid=1 freq=96000 submitted=46080 target=46080
+  clk GetPosition hr=00000000 pos=43008 prev=40960 prevValid=1 freq=96000 submitted=48960 target=48960
+  clk GetPosition hr=00000000 pos=47104 prev=43008 prevValid=1 freq=96000 submitted=51840 target=51840
+  clk GetPosition hr=00000000 pos=49152 prev=47104 prevValid=1 freq=96000 submitted=54720 target=54720
+  clk GetPosition hr=00000000 pos=53248 prev=49152 prevValid=1 freq=96000 submitted=57600 target=57600
+  clk GetPosition hr=00000000 pos=53248 prev=53248 prevValid=1 freq=96000 submitted=60480 target=60480
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=59487 prev=53248 prevValid=0 freq=96000 submitted=60480 target=60480
+  clk GetPosition hr=00000000 pos=62368 prev=59487 prevValid=1 freq=96000 submitted=60480 target=60480
+RESULT PASS complete=1 hr=00000000 waits=0 fills=21
+OPEN rate=96000 bits=16 wait=0 tail=1 pause=0 notify=0 initialWait=0 hr=00000000 frames=2880
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=96 prev=0 prevValid=0 freq=96000 submitted=2880 target=2880
+  clk GetPosition hr=00000000 pos=96 prev=96 prevValid=1 freq=96000 submitted=5760 target=5760
+  clk GetPosition hr=00000000 pos=4096 prev=96 prevValid=1 freq=96000 submitted=8640 target=8640
+  clk GetPosition hr=00000000 pos=6144 prev=4096 prevValid=1 freq=96000 submitted=11520 target=11520
+  clk GetPosition hr=00000000 pos=10240 prev=6144 prevValid=1 freq=96000 submitted=14400 target=14400
+  clk GetPosition hr=00000000 pos=12288 prev=10240 prevValid=1 freq=96000 submitted=17280 target=17280
+  clk GetPosition hr=00000000 pos=14336 prev=12288 prevValid=1 freq=96000 submitted=20160 target=20160
+  clk GetPosition hr=00000000 pos=18432 prev=14336 prevValid=1 freq=96000 submitted=23040 target=23040
+  clk GetPosition hr=00000000 pos=20480 prev=18432 prevValid=1 freq=96000 submitted=25920 target=25920
+  clk GetPosition hr=00000000 pos=24576 prev=20480 prevValid=1 freq=96000 submitted=28800 target=28800
+  clk GetPosition hr=00000000 pos=26624 prev=24576 prevValid=1 freq=96000 submitted=31680 target=31680
+  clk GetPosition hr=00000000 pos=28672 prev=26624 prevValid=1 freq=96000 submitted=34560 target=34560
+  clk GetPosition hr=00000000 pos=32768 prev=28672 prevValid=1 freq=96000 submitted=37440 target=37440
+  clk GetPosition hr=00000000 pos=34816 prev=32768 prevValid=1 freq=96000 submitted=40320 target=40320
+  clk GetPosition hr=00000000 pos=38912 prev=34816 prevValid=1 freq=96000 submitted=43200 target=43200
+  clk GetPosition hr=00000000 pos=40960 prev=38912 prevValid=1 freq=96000 submitted=46080 target=46080
+  clk GetPosition hr=00000000 pos=43008 prev=40960 prevValid=1 freq=96000 submitted=48960 target=48960
+  clk GetPosition hr=00000000 pos=47104 prev=43008 prevValid=1 freq=96000 submitted=51840 target=51840
+  clk GetPosition hr=00000000 pos=49152 prev=47104 prevValid=1 freq=96000 submitted=54720 target=54720
+  clk GetPosition hr=00000000 pos=53248 prev=49152 prevValid=1 freq=96000 submitted=57600 target=57600
+  clk GetPosition hr=00000000 pos=53248 prev=53248 prevValid=1 freq=96000 submitted=60480 target=60480
+  clk GetPosition hr=00000000 pos=55296 prev=53248 prevValid=1 freq=96000 submitted=60480 target=60480
+  clk GetPosition hr=00000000 pos=58434 prev=55296 prevValid=1 freq=96000 submitted=60480 target=60480
+  clk GetPosition hr=00000000 pos=61387 prev=58434 prevValid=1 freq=96000 submitted=60480 target=60480
+RESULT PASS complete=1 hr=00000000 waits=0 fills=21
+OPEN rate=96000 bits=24 wait=0 tail=1 pause=0 notify=1 initialWait=1 hr=00000000 frames=2880
+  api IAudioClient::Start (post-prime) hr=00000000
+  api resume Prepare hr=00000000 (Start follows, then fill)
+  api IAudioClient::Start (resume, before fill) hr=00000000
+  clk GetPosition hr=00000000 pos=94 prev=0 prevValid=0 freq=96000 submitted=0 target=0
+  clk GetPosition hr=00000000 pos=94 prev=94 prevValid=1 freq=96000 submitted=2880 target=11614
+  clk GetPosition hr=00000000 pos=94 prev=94 prevValid=1 freq=96000 submitted=5760 target=14494
+  clk GetPosition hr=00000000 pos=4115 prev=94 prevValid=1 freq=96000 submitted=8640 target=17374
+  clk GetPosition hr=00000000 pos=6169 prev=4115 prevValid=1 freq=96000 submitted=11520 target=20254
+  clk GetPosition hr=00000000 pos=10256 prev=6169 prevValid=1 freq=96000 submitted=14400 target=23134
+  clk GetPosition hr=00000000 pos=12288 prev=10256 prevValid=1 freq=96000 submitted=17280 target=26014
+  clk GetPosition hr=00000000 pos=14336 prev=12288 prevValid=1 freq=96000 submitted=20160 target=28894
+  clk GetPosition hr=00000000 pos=18432 prev=14336 prevValid=1 freq=96000 submitted=23040 target=31774
+  clk GetPosition hr=00000000 pos=20480 prev=18432 prevValid=1 freq=96000 submitted=25920 target=34654
+  clk GetPosition hr=00000000 pos=24585 prev=20480 prevValid=1 freq=96000 submitted=28800 target=37534
+  clk GetPosition hr=00000000 pos=26624 prev=24585 prevValid=1 freq=96000 submitted=31680 target=40414
+  clk GetPosition hr=00000000 pos=28672 prev=26624 prevValid=1 freq=96000 submitted=34560 target=43294
+  clk GetPosition hr=00000000 pos=32768 prev=28672 prevValid=1 freq=96000 submitted=37440 target=46174
+  clk GetPosition hr=00000000 pos=34822 prev=32768 prevValid=1 freq=96000 submitted=40320 target=49054
+  clk GetPosition hr=00000000 pos=38912 prev=34822 prevValid=1 freq=96000 submitted=43200 target=51934
+  clk GetPosition hr=00000000 pos=40966 prev=38912 prevValid=1 freq=96000 submitted=46080 target=54814
+  clk GetPosition hr=00000000 pos=43032 prev=40966 prevValid=1 freq=96000 submitted=48960 target=57694
+  clk GetPosition hr=00000000 pos=47104 prev=43032 prevValid=1 freq=96000 submitted=51840 target=60574
+  clk GetPosition hr=00000000 pos=49176 prev=47104 prevValid=1 freq=96000 submitted=54720 target=63454
+  clk GetPosition hr=00000000 pos=53248 prev=49176 prevValid=1 freq=96000 submitted=57600 target=66334
+  clk GetPosition hr=00000000 pos=53248 prev=53248 prevValid=1 freq=96000 submitted=60480 target=69214
+  clk GetPosition hr=00000000 pos=55236 prev=53248 prevValid=1 freq=96000 submitted=60480 target=69214
+  clk GetPosition hr=00000000 pos=55296 prev=55236 prevValid=1 freq=96000 submitted=60480 target=69214
+  clk GetPosition hr=00000000 pos=58213 prev=55296 prevValid=1 freq=96000 submitted=60480 target=69214
+  clk GetPosition hr=00000000 pos=61168 prev=58213 prevValid=1 freq=96000 submitted=60480 target=69214
+  clk GetPosition hr=00000000 pos=64245 prev=61168 prevValid=1 freq=96000 submitted=60480 target=69214
+  clk GetPosition hr=00000000 pos=67177 prev=64245 prevValid=1 freq=96000 submitted=60480 target=69214
+  clk GetPosition hr=00000000 pos=70207 prev=67177 prevValid=1 freq=96000 submitted=60480 target=69214
+RESULT PASS complete=1 hr=00000000 waits=1 fills=21
+OPEN rate=96000 bits=24 wait=1 tail=0 pause=0 notify=0 initialWait=0 hr=00000000 frames=2880
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=94 prev=0 prevValid=0 freq=96000 submitted=2880 target=2880
+  clk GetPosition hr=00000000 pos=94 prev=94 prevValid=1 freq=96000 submitted=5760 target=5760
+  clk GetPosition hr=00000000 pos=4096 prev=94 prevValid=1 freq=96000 submitted=8640 target=8640
+  clk GetPosition hr=00000000 pos=6144 prev=4096 prevValid=1 freq=96000 submitted=11520 target=11520
+  clk GetPosition hr=00000000 pos=10240 prev=6144 prevValid=1 freq=96000 submitted=14400 target=14400
+  clk GetPosition hr=00000000 pos=12288 prev=10240 prevValid=1 freq=96000 submitted=17280 target=17280
+  clk GetPosition hr=00000000 pos=14336 prev=12288 prevValid=1 freq=96000 submitted=20160 target=20160
+  clk GetPosition hr=00000000 pos=18432 prev=14336 prevValid=1 freq=96000 submitted=23040 target=23040
+  clk GetPosition hr=00000000 pos=20480 prev=18432 prevValid=1 freq=96000 submitted=25920 target=25920
+  clk GetPosition hr=00000000 pos=24576 prev=20480 prevValid=1 freq=96000 submitted=28800 target=28800
+  clk GetPosition hr=00000000 pos=26624 prev=24576 prevValid=1 freq=96000 submitted=31680 target=31680
+  clk GetPosition hr=00000000 pos=28672 prev=26624 prevValid=1 freq=96000 submitted=34560 target=34560
+  clk GetPosition hr=00000000 pos=32768 prev=28672 prevValid=1 freq=96000 submitted=37440 target=37440
+  clk GetPosition hr=00000000 pos=34816 prev=32768 prevValid=1 freq=96000 submitted=40320 target=40320
+  clk GetPosition hr=00000000 pos=38912 prev=34816 prevValid=1 freq=96000 submitted=43200 target=43200
+  clk GetPosition hr=00000000 pos=40960 prev=38912 prevValid=1 freq=96000 submitted=46080 target=46080
+  clk GetPosition hr=00000000 pos=43008 prev=40960 prevValid=1 freq=96000 submitted=48960 target=48960
+  clk GetPosition hr=00000000 pos=47104 prev=43008 prevValid=1 freq=96000 submitted=51840 target=51840
+  clk GetPosition hr=00000000 pos=49152 prev=47104 prevValid=1 freq=96000 submitted=54720 target=54720
+  api resume Prepare hr=00000000 (Start follows, then fill)
+  api IAudioClient::Start (resume, before fill) hr=00000000
+  clk GetPosition hr=00000000 pos=57439 prev=49152 prevValid=0 freq=96000 submitted=57600 target=57600
+  clk GetPosition hr=00000000 pos=57439 prev=57439 prevValid=1 freq=96000 submitted=60480 target=60480
+  clk GetPosition hr=00000000 pos=57439 prev=57439 prevValid=1 freq=96000 submitted=60480 target=60480
+  clk GetPosition hr=00000000 pos=60416 prev=57439 prevValid=1 freq=96000 submitted=60480 target=60480
+  clk GetPosition hr=00000000 pos=63392 prev=60416 prevValid=1 freq=96000 submitted=60480 target=60480
+RESULT PASS complete=1 hr=00000000 waits=1 fills=21
+OPEN rate=96000 bits=24 wait=1 tail=1 pause=0 notify=0 initialWait=0 hr=00000000 frames=2880
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=95 prev=0 prevValid=0 freq=96000 submitted=2880 target=2880
+  clk GetPosition hr=00000000 pos=192 prev=95 prevValid=1 freq=96000 submitted=5760 target=5760
+  clk GetPosition hr=00000000 pos=4096 prev=192 prevValid=1 freq=96000 submitted=8640 target=8640
+  clk GetPosition hr=00000000 pos=6144 prev=4096 prevValid=1 freq=96000 submitted=11520 target=11520
+  clk GetPosition hr=00000000 pos=10240 prev=6144 prevValid=1 freq=96000 submitted=14400 target=14400
+  clk GetPosition hr=00000000 pos=12288 prev=10240 prevValid=1 freq=96000 submitted=17280 target=17280
+  clk GetPosition hr=00000000 pos=14336 prev=12288 prevValid=1 freq=96000 submitted=20160 target=20160
+  clk GetPosition hr=00000000 pos=18432 prev=14336 prevValid=1 freq=96000 submitted=23040 target=23040
+  clk GetPosition hr=00000000 pos=20480 prev=18432 prevValid=1 freq=96000 submitted=25920 target=25920
+  clk GetPosition hr=00000000 pos=24576 prev=20480 prevValid=1 freq=96000 submitted=28800 target=28800
+  clk GetPosition hr=00000000 pos=26624 prev=24576 prevValid=1 freq=96000 submitted=31680 target=31680
+  clk GetPosition hr=00000000 pos=28672 prev=26624 prevValid=1 freq=96000 submitted=34560 target=34560
+  clk GetPosition hr=00000000 pos=32768 prev=28672 prevValid=1 freq=96000 submitted=37440 target=37440
+  clk GetPosition hr=00000000 pos=34816 prev=32768 prevValid=1 freq=96000 submitted=40320 target=40320
+  clk GetPosition hr=00000000 pos=38912 prev=34816 prevValid=1 freq=96000 submitted=43200 target=43200
+  clk GetPosition hr=00000000 pos=40960 prev=38912 prevValid=1 freq=96000 submitted=46080 target=46080
+  clk GetPosition hr=00000000 pos=43008 prev=40960 prevValid=1 freq=96000 submitted=48960 target=48960
+  clk GetPosition hr=00000000 pos=47104 prev=43008 prevValid=1 freq=96000 submitted=51840 target=51840
+  clk GetPosition hr=00000000 pos=49152 prev=47104 prevValid=1 freq=96000 submitted=54720 target=54720
+  api resume Prepare hr=00000000 (Start follows, then fill)
+  api IAudioClient::Start (resume, before fill) hr=00000000
+  clk GetPosition hr=00000000 pos=57436 prev=49152 prevValid=0 freq=96000 submitted=57600 target=57600
+  clk GetPosition hr=00000000 pos=57436 prev=57436 prevValid=1 freq=96000 submitted=60480 target=60480
+  clk GetPosition hr=00000000 pos=57436 prev=57436 prevValid=1 freq=96000 submitted=60480 target=60480
+  clk GetPosition hr=00000000 pos=60317 prev=57436 prevValid=1 freq=96000 submitted=60480 target=60480
+  clk GetPosition hr=00000000 pos=63297 prev=60317 prevValid=1 freq=96000 submitted=60480 target=60480
+RESULT PASS complete=1 hr=00000000 waits=1 fills=21
+OPEN rate=96000 bits=24 wait=1 tail=2 pause=0 notify=0 initialWait=0 hr=00000000 frames=2880
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=91 prev=0 prevValid=0 freq=96000 submitted=2880 target=2880
+  clk GetPosition hr=00000000 pos=91 prev=91 prevValid=1 freq=96000 submitted=5760 target=5760
+  clk GetPosition hr=00000000 pos=4096 prev=91 prevValid=1 freq=96000 submitted=8640 target=8640
+  clk GetPosition hr=00000000 pos=6144 prev=4096 prevValid=1 freq=96000 submitted=11520 target=11520
+  clk GetPosition hr=00000000 pos=10240 prev=6144 prevValid=1 freq=96000 submitted=14400 target=14400
+  clk GetPosition hr=00000000 pos=12288 prev=10240 prevValid=1 freq=96000 submitted=17280 target=17280
+  clk GetPosition hr=00000000 pos=14336 prev=12288 prevValid=1 freq=96000 submitted=20160 target=20160
+  clk GetPosition hr=00000000 pos=18432 prev=14336 prevValid=1 freq=96000 submitted=23040 target=23040
+  clk GetPosition hr=00000000 pos=20480 prev=18432 prevValid=1 freq=96000 submitted=25920 target=25920
+  clk GetPosition hr=00000000 pos=24576 prev=20480 prevValid=1 freq=96000 submitted=28800 target=28800
+  clk GetPosition hr=00000000 pos=26624 prev=24576 prevValid=1 freq=96000 submitted=31680 target=31680
+  clk GetPosition hr=00000000 pos=28672 prev=26624 prevValid=1 freq=96000 submitted=34560 target=34560
+  clk GetPosition hr=00000000 pos=32768 prev=28672 prevValid=1 freq=96000 submitted=37440 target=37440
+  clk GetPosition hr=00000000 pos=34816 prev=32768 prevValid=1 freq=96000 submitted=40320 target=40320
+  clk GetPosition hr=00000000 pos=38912 prev=34816 prevValid=1 freq=96000 submitted=43200 target=43200
+  clk GetPosition hr=00000000 pos=40960 prev=38912 prevValid=1 freq=96000 submitted=46080 target=46080
+  clk GetPosition hr=00000000 pos=43008 prev=40960 prevValid=1 freq=96000 submitted=48960 target=48960
+  clk GetPosition hr=00000000 pos=47104 prev=43008 prevValid=1 freq=96000 submitted=51840 target=51840
+  clk GetPosition hr=00000000 pos=49152 prev=47104 prevValid=1 freq=96000 submitted=54720 target=54720
+  api resume Prepare hr=00000000 (Start follows, then fill)
+  api IAudioClient::Start (resume, before fill) hr=00000000
+  clk GetPosition hr=00000000 pos=57441 prev=49152 prevValid=0 freq=96000 submitted=57600 target=57600
+  clk GetPosition hr=00000000 pos=57441 prev=57441 prevValid=1 freq=96000 submitted=60480 target=60480
+  clk GetPosition hr=00000000 pos=57441 prev=57441 prevValid=1 freq=96000 submitted=60480 target=60480
+  clk GetPosition hr=00000000 pos=60337 prev=57441 prevValid=1 freq=96000 submitted=60480 target=60480
+  clk GetPosition hr=00000000 pos=63329 prev=60337 prevValid=1 freq=96000 submitted=60480 target=60480
+RESULT PASS complete=1 hr=00000000 waits=1 fills=21
+OPEN rate=96000 bits=24 wait=1 tail=1 pause=1 notify=0 initialWait=0 hr=00000000 frames=2880
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=95 prev=0 prevValid=0 freq=96000 submitted=2880 target=2880
+  clk GetPosition hr=00000000 pos=95 prev=95 prevValid=1 freq=96000 submitted=5760 target=5760
+  clk GetPosition hr=00000000 pos=4096 prev=95 prevValid=1 freq=96000 submitted=8640 target=8640
+  clk GetPosition hr=00000000 pos=6144 prev=4096 prevValid=1 freq=96000 submitted=11520 target=11520
+  clk GetPosition hr=00000000 pos=10240 prev=6144 prevValid=1 freq=96000 submitted=14400 target=14400
+  clk GetPosition hr=00000000 pos=12288 prev=10240 prevValid=1 freq=96000 submitted=17280 target=17280
+  clk GetPosition hr=00000000 pos=14336 prev=12288 prevValid=1 freq=96000 submitted=20160 target=20160
+  clk GetPosition hr=00000000 pos=18432 prev=14336 prevValid=1 freq=96000 submitted=23040 target=23040
+  clk GetPosition hr=00000000 pos=20480 prev=18432 prevValid=1 freq=96000 submitted=25920 target=25920
+  clk GetPosition hr=00000000 pos=24576 prev=20480 prevValid=1 freq=96000 submitted=28800 target=28800
+  clk GetPosition hr=00000000 pos=26624 prev=24576 prevValid=1 freq=96000 submitted=31680 target=31680
+  clk GetPosition hr=00000000 pos=28672 prev=26624 prevValid=1 freq=96000 submitted=34560 target=34560
+  clk GetPosition hr=00000000 pos=32768 prev=28672 prevValid=1 freq=96000 submitted=37440 target=37440
+  clk GetPosition hr=00000000 pos=34816 prev=32768 prevValid=1 freq=96000 submitted=40320 target=40320
+  clk GetPosition hr=00000000 pos=38912 prev=34816 prevValid=1 freq=96000 submitted=43200 target=43200
+  clk GetPosition hr=00000000 pos=40960 prev=38912 prevValid=1 freq=96000 submitted=46080 target=46080
+  clk GetPosition hr=00000000 pos=43008 prev=40960 prevValid=1 freq=96000 submitted=48960 target=48960
+  clk GetPosition hr=00000000 pos=47104 prev=43008 prevValid=1 freq=96000 submitted=51840 target=51840
+  clk GetPosition hr=00000000 pos=49152 prev=47104 prevValid=1 freq=96000 submitted=54720 target=54720
+  api resume Prepare hr=00000000 (Start follows, then fill)
+  api IAudioClient::Start (resume, before fill) hr=00000000
+  clk GetPosition hr=00000000 pos=57435 prev=49152 prevValid=0 freq=96000 submitted=57600 target=57600
+  clk GetPosition hr=00000000 pos=57435 prev=57435 prevValid=1 freq=96000 submitted=60480 target=60480
+  clk GetPosition hr=00000000 pos=57435 prev=57435 prevValid=1 freq=96000 submitted=60480 target=60480
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=62367 prev=57435 prevValid=0 freq=96000 submitted=60480 target=60480
+RESULT PASS complete=1 hr=00000000 waits=1 fills=21
+OPEN rate=96000 bits=16 wait=1 tail=1 pause=0 notify=0 initialWait=0 hr=00000000 frames=2880
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=96 prev=0 prevValid=0 freq=96000 submitted=2880 target=2880
+  clk GetPosition hr=00000000 pos=96 prev=96 prevValid=1 freq=96000 submitted=5760 target=5760
+  clk GetPosition hr=00000000 pos=4096 prev=96 prevValid=1 freq=96000 submitted=8640 target=8640
+  clk GetPosition hr=00000000 pos=6144 prev=4096 prevValid=1 freq=96000 submitted=11520 target=11520
+  clk GetPosition hr=00000000 pos=10240 prev=6144 prevValid=1 freq=96000 submitted=14400 target=14400
+  clk GetPosition hr=00000000 pos=12288 prev=10240 prevValid=1 freq=96000 submitted=17280 target=17280
+  clk GetPosition hr=00000000 pos=14336 prev=12288 prevValid=1 freq=96000 submitted=20160 target=20160
+  clk GetPosition hr=00000000 pos=18432 prev=14336 prevValid=1 freq=96000 submitted=23040 target=23040
+  clk GetPosition hr=00000000 pos=20480 prev=18432 prevValid=1 freq=96000 submitted=25920 target=25920
+  clk GetPosition hr=00000000 pos=24576 prev=20480 prevValid=1 freq=96000 submitted=28800 target=28800
+  clk GetPosition hr=00000000 pos=26624 prev=24576 prevValid=1 freq=96000 submitted=31680 target=31680
+  clk GetPosition hr=00000000 pos=28672 prev=26624 prevValid=1 freq=96000 submitted=34560 target=34560
+  clk GetPosition hr=00000000 pos=32768 prev=28672 prevValid=1 freq=96000 submitted=37440 target=37440
+  clk GetPosition hr=00000000 pos=34816 prev=32768 prevValid=1 freq=96000 submitted=40320 target=40320
+  clk GetPosition hr=00000000 pos=38912 prev=34816 prevValid=1 freq=96000 submitted=43200 target=43200
+  clk GetPosition hr=00000000 pos=40960 prev=38912 prevValid=1 freq=96000 submitted=46080 target=46080
+  clk GetPosition hr=00000000 pos=43008 prev=40960 prevValid=1 freq=96000 submitted=48960 target=48960
+  clk GetPosition hr=00000000 pos=47104 prev=43008 prevValid=1 freq=96000 submitted=51840 target=51840
+  clk GetPosition hr=00000000 pos=49152 prev=47104 prevValid=1 freq=96000 submitted=54720 target=54720
+  api resume Prepare hr=00000000 (Start follows, then fill)
+  api IAudioClient::Start (resume, before fill) hr=00000000
+  clk GetPosition hr=00000000 pos=57344 prev=49152 prevValid=0 freq=96000 submitted=57600 target=57600
+  clk GetPosition hr=00000000 pos=57439 prev=57344 prevValid=1 freq=96000 submitted=60480 target=60480
+  clk GetPosition hr=00000000 pos=57439 prev=57439 prevValid=1 freq=96000 submitted=60480 target=60480
+  clk GetPosition hr=00000000 pos=60305 prev=57439 prevValid=1 freq=96000 submitted=60480 target=60480
+  clk GetPosition hr=00000000 pos=63239 prev=60305 prevValid=1 freq=96000 submitted=60480 target=60480
+RESULT PASS complete=1 hr=00000000 waits=1 fills=21
+OPEN rate=96000 bits=24 wait=1 tail=1 pause=0 notify=1 initialWait=1 hr=00000000 frames=2880
+  api IAudioClient::Start (post-prime) hr=00000000
+  api resume Prepare hr=00000000 (Start follows, then fill)
+  api IAudioClient::Start (resume, before fill) hr=00000000
+  clk GetPosition hr=00000000 pos=53 prev=0 prevValid=0 freq=96000 submitted=0 target=0
+  clk GetPosition hr=00000000 pos=53 prev=53 prevValid=1 freq=96000 submitted=2880 target=11573
+  clk GetPosition hr=00000000 pos=53 prev=53 prevValid=1 freq=96000 submitted=5760 target=14453
+  clk GetPosition hr=00000000 pos=154 prev=53 prevValid=1 freq=96000 submitted=8640 target=17333
+  clk GetPosition hr=00000000 pos=4096 prev=154 prevValid=1 freq=96000 submitted=11520 target=20213
+  clk GetPosition hr=00000000 pos=6144 prev=4096 prevValid=1 freq=96000 submitted=14400 target=23093
+  clk GetPosition hr=00000000 pos=10240 prev=6144 prevValid=1 freq=96000 submitted=17280 target=25973
+  clk GetPosition hr=00000000 pos=12288 prev=10240 prevValid=1 freq=96000 submitted=20160 target=28853
+  clk GetPosition hr=00000000 pos=14336 prev=12288 prevValid=1 freq=96000 submitted=23040 target=31733
+  clk GetPosition hr=00000000 pos=18432 prev=14336 prevValid=1 freq=96000 submitted=25920 target=34613
+  clk GetPosition hr=00000000 pos=20480 prev=18432 prevValid=1 freq=96000 submitted=28800 target=37493
+  clk GetPosition hr=00000000 pos=24576 prev=20480 prevValid=1 freq=96000 submitted=31680 target=40373
+  clk GetPosition hr=00000000 pos=26624 prev=24576 prevValid=1 freq=96000 submitted=34560 target=43253
+  clk GetPosition hr=00000000 pos=28672 prev=26624 prevValid=1 freq=96000 submitted=37440 target=46133
+  clk GetPosition hr=00000000 pos=32768 prev=28672 prevValid=1 freq=96000 submitted=40320 target=49013
+  clk GetPosition hr=00000000 pos=34816 prev=32768 prevValid=1 freq=96000 submitted=43200 target=51893
+  clk GetPosition hr=00000000 pos=38912 prev=34816 prevValid=1 freq=96000 submitted=46080 target=54773
+  clk GetPosition hr=00000000 pos=40960 prev=38912 prevValid=1 freq=96000 submitted=48960 target=57653
+  clk GetPosition hr=00000000 pos=43008 prev=40960 prevValid=1 freq=96000 submitted=51840 target=60533
+  clk GetPosition hr=00000000 pos=47104 prev=43008 prevValid=1 freq=96000 submitted=54720 target=63413
+  api resume Prepare hr=00000000 (Start follows, then fill)
+  api IAudioClient::Start (resume, before fill) hr=00000000
+  clk GetPosition hr=00000000 pos=57438 prev=47104 prevValid=0 freq=96000 submitted=57600 target=66293
+  clk GetPosition hr=00000000 pos=57438 prev=57438 prevValid=1 freq=96000 submitted=60480 target=69173
+  clk GetPosition hr=00000000 pos=57438 prev=57438 prevValid=1 freq=96000 submitted=60480 target=69173
+  clk GetPosition hr=00000000 pos=60415 prev=57438 prevValid=1 freq=96000 submitted=60480 target=69173
+  clk GetPosition hr=00000000 pos=63449 prev=60415 prevValid=1 freq=96000 submitted=60480 target=69173
+  clk GetPosition hr=00000000 pos=66446 prev=63449 prevValid=1 freq=96000 submitted=60480 target=69173
+  clk GetPosition hr=00000000 pos=69456 prev=66446 prevValid=1 freq=96000 submitted=60480 target=69173
+RESULT PASS complete=1 hr=00000000 waits=2 fills=21
+OPEN rate=44100 bits=24 wait=0 tail=0 pause=0 notify=0 initialWait=0 hr=00000000 frames=1323
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=44 prev=0 prevValid=0 freq=44100 submitted=1323 target=1323
+  clk GetPosition hr=00000000 pos=44 prev=44 prevValid=1 freq=44100 submitted=2646 target=2646
+  clk GetPosition hr=00000000 pos=44 prev=44 prevValid=1 freq=44100 submitted=3969 target=3969
+  clk GetPosition hr=00000000 pos=3072 prev=44 prevValid=1 freq=44100 submitted=5292 target=5292
+  clk GetPosition hr=00000000 pos=4096 prev=3072 prevValid=1 freq=44100 submitted=6615 target=6615
+  clk GetPosition hr=00000000 pos=5120 prev=4096 prevValid=1 freq=44100 submitted=7938 target=7938
+  clk GetPosition hr=00000000 pos=7168 prev=5120 prevValid=1 freq=44100 submitted=9261 target=9261
+  clk GetPosition hr=00000000 pos=8192 prev=7168 prevValid=1 freq=44100 submitted=10584 target=10584
+  clk GetPosition hr=00000000 pos=9216 prev=8192 prevValid=1 freq=44100 submitted=11907 target=11907
+  clk GetPosition hr=00000000 pos=10240 prev=9216 prevValid=1 freq=44100 submitted=13230 target=13230
+  clk GetPosition hr=00000000 pos=12288 prev=10240 prevValid=1 freq=44100 submitted=14553 target=14553
+  clk GetPosition hr=00000000 pos=13312 prev=12288 prevValid=1 freq=44100 submitted=15876 target=15876
+  clk GetPosition hr=00000000 pos=14336 prev=13312 prevValid=1 freq=44100 submitted=17199 target=17199
+  clk GetPosition hr=00000000 pos=16384 prev=14336 prevValid=1 freq=44100 submitted=18522 target=18522
+  clk GetPosition hr=00000000 pos=17408 prev=16384 prevValid=1 freq=44100 submitted=19845 target=19845
+  clk GetPosition hr=00000000 pos=18432 prev=17408 prevValid=1 freq=44100 submitted=21168 target=21168
+  clk GetPosition hr=00000000 pos=19456 prev=18432 prevValid=1 freq=44100 submitted=22491 target=22491
+  clk GetPosition hr=00000000 pos=21504 prev=19456 prevValid=1 freq=44100 submitted=23814 target=23814
+  clk GetPosition hr=00000000 pos=22528 prev=21504 prevValid=1 freq=44100 submitted=25137 target=25137
+  clk GetPosition hr=00000000 pos=23552 prev=22528 prevValid=1 freq=44100 submitted=26460 target=26460
+  clk GetPosition hr=00000000 pos=23552 prev=23552 prevValid=1 freq=44100 submitted=27783 target=27783
+  clk GetPosition hr=00000000 pos=24979 prev=23552 prevValid=1 freq=44100 submitted=27783 target=27783
+  clk GetPosition hr=00000000 pos=25600 prev=24979 prevValid=1 freq=44100 submitted=27783 target=27783
+  clk GetPosition hr=00000000 pos=26393 prev=25600 prevValid=1 freq=44100 submitted=27783 target=27783
+  clk GetPosition hr=00000000 pos=27790 prev=26393 prevValid=1 freq=44100 submitted=27783 target=27783
+RESULT PASS complete=1 hr=00000000 waits=0 fills=21
+OPEN rate=44100 bits=24 wait=0 tail=1 pause=0 notify=0 initialWait=0 hr=00000000 frames=1323
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=46 prev=0 prevValid=0 freq=44100 submitted=1323 target=1323
+  clk GetPosition hr=00000000 pos=46 prev=46 prevValid=1 freq=44100 submitted=2646 target=2646
+  clk GetPosition hr=00000000 pos=46 prev=46 prevValid=1 freq=44100 submitted=3969 target=3969
+  clk GetPosition hr=00000000 pos=3072 prev=46 prevValid=1 freq=44100 submitted=5292 target=5292
+  clk GetPosition hr=00000000 pos=4096 prev=3072 prevValid=1 freq=44100 submitted=6615 target=6615
+  clk GetPosition hr=00000000 pos=5120 prev=4096 prevValid=1 freq=44100 submitted=7938 target=7938
+  clk GetPosition hr=00000000 pos=7168 prev=5120 prevValid=1 freq=44100 submitted=9261 target=9261
+  clk GetPosition hr=00000000 pos=8192 prev=7168 prevValid=1 freq=44100 submitted=10584 target=10584
+  clk GetPosition hr=00000000 pos=9216 prev=8192 prevValid=1 freq=44100 submitted=11907 target=11907
+  clk GetPosition hr=00000000 pos=10240 prev=9216 prevValid=1 freq=44100 submitted=13230 target=13230
+  clk GetPosition hr=00000000 pos=12288 prev=10240 prevValid=1 freq=44100 submitted=14553 target=14553
+  clk GetPosition hr=00000000 pos=13312 prev=12288 prevValid=1 freq=44100 submitted=15876 target=15876
+  clk GetPosition hr=00000000 pos=14336 prev=13312 prevValid=1 freq=44100 submitted=17199 target=17199
+  clk GetPosition hr=00000000 pos=16384 prev=14336 prevValid=1 freq=44100 submitted=18522 target=18522
+  clk GetPosition hr=00000000 pos=17408 prev=16384 prevValid=1 freq=44100 submitted=19845 target=19845
+  clk GetPosition hr=00000000 pos=18432 prev=17408 prevValid=1 freq=44100 submitted=21168 target=21168
+  clk GetPosition hr=00000000 pos=19456 prev=18432 prevValid=1 freq=44100 submitted=22491 target=22491
+  clk GetPosition hr=00000000 pos=21504 prev=19456 prevValid=1 freq=44100 submitted=23814 target=23814
+  clk GetPosition hr=00000000 pos=22528 prev=21504 prevValid=1 freq=44100 submitted=25137 target=25137
+  clk GetPosition hr=00000000 pos=23552 prev=22528 prevValid=1 freq=44100 submitted=26460 target=26460
+  clk GetPosition hr=00000000 pos=23552 prev=23552 prevValid=1 freq=44100 submitted=27783 target=27783
+  clk GetPosition hr=00000000 pos=24708 prev=23552 prevValid=1 freq=44100 submitted=27783 target=27783
+  clk GetPosition hr=00000000 pos=25600 prev=24708 prevValid=1 freq=44100 submitted=27783 target=27783
+  clk GetPosition hr=00000000 pos=26738 prev=25600 prevValid=1 freq=44100 submitted=27783 target=27783
+  clk GetPosition hr=00000000 pos=28058 prev=26738 prevValid=1 freq=44100 submitted=27783 target=27783
+RESULT PASS complete=1 hr=00000000 waits=0 fills=21
+OPEN rate=44100 bits=24 wait=0 tail=2 pause=0 notify=0 initialWait=0 hr=00000000 frames=1323
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=42 prev=0 prevValid=0 freq=44100 submitted=1323 target=1323
+  clk GetPosition hr=00000000 pos=88 prev=42 prevValid=1 freq=44100 submitted=2646 target=2646
+  clk GetPosition hr=00000000 pos=88 prev=88 prevValid=1 freq=44100 submitted=3969 target=3969
+  clk GetPosition hr=00000000 pos=3072 prev=88 prevValid=1 freq=44100 submitted=5292 target=5292
+  clk GetPosition hr=00000000 pos=4096 prev=3072 prevValid=1 freq=44100 submitted=6615 target=6615
+  clk GetPosition hr=00000000 pos=5120 prev=4096 prevValid=1 freq=44100 submitted=7938 target=7938
+  clk GetPosition hr=00000000 pos=7168 prev=5120 prevValid=1 freq=44100 submitted=9261 target=9261
+  clk GetPosition hr=00000000 pos=8192 prev=7168 prevValid=1 freq=44100 submitted=10584 target=10584
+  clk GetPosition hr=00000000 pos=9216 prev=8192 prevValid=1 freq=44100 submitted=11907 target=11907
+  clk GetPosition hr=00000000 pos=10240 prev=9216 prevValid=1 freq=44100 submitted=13230 target=13230
+  clk GetPosition hr=00000000 pos=12288 prev=10240 prevValid=1 freq=44100 submitted=14553 target=14553
+  clk GetPosition hr=00000000 pos=13312 prev=12288 prevValid=1 freq=44100 submitted=15876 target=15876
+  clk GetPosition hr=00000000 pos=14336 prev=13312 prevValid=1 freq=44100 submitted=17199 target=17199
+  clk GetPosition hr=00000000 pos=16384 prev=14336 prevValid=1 freq=44100 submitted=18522 target=18522
+  clk GetPosition hr=00000000 pos=17408 prev=16384 prevValid=1 freq=44100 submitted=19845 target=19845
+  clk GetPosition hr=00000000 pos=18432 prev=17408 prevValid=1 freq=44100 submitted=21168 target=21168
+  clk GetPosition hr=00000000 pos=19456 prev=18432 prevValid=1 freq=44100 submitted=22491 target=22491
+  clk GetPosition hr=00000000 pos=21504 prev=19456 prevValid=1 freq=44100 submitted=23814 target=23814
+  clk GetPosition hr=00000000 pos=22528 prev=21504 prevValid=1 freq=44100 submitted=25137 target=25137
+  clk GetPosition hr=00000000 pos=23552 prev=22528 prevValid=1 freq=44100 submitted=26460 target=26460
+  clk GetPosition hr=00000000 pos=23552 prev=23552 prevValid=1 freq=44100 submitted=27783 target=27783
+  clk GetPosition hr=00000000 pos=24666 prev=23552 prevValid=1 freq=44100 submitted=27783 target=27783
+  clk GetPosition hr=00000000 pos=25600 prev=24666 prevValid=1 freq=44100 submitted=27783 target=27783
+  clk GetPosition hr=00000000 pos=26742 prev=25600 prevValid=1 freq=44100 submitted=27783 target=27783
+  clk GetPosition hr=00000000 pos=28155 prev=26742 prevValid=1 freq=44100 submitted=27783 target=27783
+RESULT PASS complete=1 hr=00000000 waits=0 fills=21
+OPEN rate=44100 bits=24 wait=0 tail=1 pause=1 notify=0 initialWait=0 hr=00000000 frames=1323
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=44 prev=0 prevValid=0 freq=44100 submitted=1323 target=1323
+  clk GetPosition hr=00000000 pos=44 prev=44 prevValid=1 freq=44100 submitted=2646 target=2646
+  clk GetPosition hr=00000000 pos=44 prev=44 prevValid=1 freq=44100 submitted=3969 target=3969
+  clk GetPosition hr=00000000 pos=3072 prev=44 prevValid=1 freq=44100 submitted=5292 target=5292
+  clk GetPosition hr=00000000 pos=4096 prev=3072 prevValid=1 freq=44100 submitted=6615 target=6615
+  clk GetPosition hr=00000000 pos=5120 prev=4096 prevValid=1 freq=44100 submitted=7938 target=7938
+  clk GetPosition hr=00000000 pos=7168 prev=5120 prevValid=1 freq=44100 submitted=9261 target=9261
+  clk GetPosition hr=00000000 pos=8192 prev=7168 prevValid=1 freq=44100 submitted=10584 target=10584
+  clk GetPosition hr=00000000 pos=9216 prev=8192 prevValid=1 freq=44100 submitted=11907 target=11907
+  clk GetPosition hr=00000000 pos=10240 prev=9216 prevValid=1 freq=44100 submitted=13230 target=13230
+  clk GetPosition hr=00000000 pos=12288 prev=10240 prevValid=1 freq=44100 submitted=14553 target=14553
+  clk GetPosition hr=00000000 pos=13312 prev=12288 prevValid=1 freq=44100 submitted=15876 target=15876
+  clk GetPosition hr=00000000 pos=14336 prev=13312 prevValid=1 freq=44100 submitted=17199 target=17199
+  clk GetPosition hr=00000000 pos=16384 prev=14336 prevValid=1 freq=44100 submitted=18522 target=18522
+  clk GetPosition hr=00000000 pos=17408 prev=16384 prevValid=1 freq=44100 submitted=19845 target=19845
+  clk GetPosition hr=00000000 pos=18432 prev=17408 prevValid=1 freq=44100 submitted=21168 target=21168
+  clk GetPosition hr=00000000 pos=19456 prev=18432 prevValid=1 freq=44100 submitted=22491 target=22491
+  clk GetPosition hr=00000000 pos=21504 prev=19456 prevValid=1 freq=44100 submitted=23814 target=23814
+  clk GetPosition hr=00000000 pos=22528 prev=21504 prevValid=1 freq=44100 submitted=25137 target=25137
+  clk GetPosition hr=00000000 pos=23552 prev=22528 prevValid=1 freq=44100 submitted=26460 target=26460
+  clk GetPosition hr=00000000 pos=23552 prev=23552 prevValid=1 freq=44100 submitted=27783 target=27783
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=27694 prev=23552 prevValid=0 freq=44100 submitted=27783 target=27783
+  clk GetPosition hr=00000000 pos=29017 prev=27694 prevValid=1 freq=44100 submitted=27783 target=27783
+RESULT PASS complete=1 hr=00000000 waits=0 fills=21
+OPEN rate=44100 bits=16 wait=0 tail=1 pause=0 notify=0 initialWait=0 hr=00000000 frames=1323
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=46 prev=0 prevValid=0 freq=44100 submitted=1323 target=1323
+  clk GetPosition hr=00000000 pos=46 prev=46 prevValid=1 freq=44100 submitted=2646 target=2646
+  clk GetPosition hr=00000000 pos=46 prev=46 prevValid=1 freq=44100 submitted=3969 target=3969
+  clk GetPosition hr=00000000 pos=3072 prev=46 prevValid=1 freq=44100 submitted=5292 target=5292
+  clk GetPosition hr=00000000 pos=4096 prev=3072 prevValid=1 freq=44100 submitted=6615 target=6615
+  clk GetPosition hr=00000000 pos=5120 prev=4096 prevValid=1 freq=44100 submitted=7938 target=7938
+  clk GetPosition hr=00000000 pos=7168 prev=5120 prevValid=1 freq=44100 submitted=9261 target=9261
+  clk GetPosition hr=00000000 pos=8192 prev=7168 prevValid=1 freq=44100 submitted=10584 target=10584
+  clk GetPosition hr=00000000 pos=9216 prev=8192 prevValid=1 freq=44100 submitted=11907 target=11907
+  clk GetPosition hr=00000000 pos=10240 prev=9216 prevValid=1 freq=44100 submitted=13230 target=13230
+  clk GetPosition hr=00000000 pos=12288 prev=10240 prevValid=1 freq=44100 submitted=14553 target=14553
+  clk GetPosition hr=00000000 pos=13312 prev=12288 prevValid=1 freq=44100 submitted=15876 target=15876
+  clk GetPosition hr=00000000 pos=14336 prev=13312 prevValid=1 freq=44100 submitted=17199 target=17199
+  clk GetPosition hr=00000000 pos=16384 prev=14336 prevValid=1 freq=44100 submitted=18522 target=18522
+  clk GetPosition hr=00000000 pos=17408 prev=16384 prevValid=1 freq=44100 submitted=19845 target=19845
+  clk GetPosition hr=00000000 pos=18432 prev=17408 prevValid=1 freq=44100 submitted=21168 target=21168
+  clk GetPosition hr=00000000 pos=19456 prev=18432 prevValid=1 freq=44100 submitted=22491 target=22491
+  clk GetPosition hr=00000000 pos=21504 prev=19456 prevValid=1 freq=44100 submitted=23814 target=23814
+  clk GetPosition hr=00000000 pos=22528 prev=21504 prevValid=1 freq=44100 submitted=25137 target=25137
+  clk GetPosition hr=00000000 pos=23552 prev=22528 prevValid=1 freq=44100 submitted=26460 target=26460
+  clk GetPosition hr=00000000 pos=23552 prev=23552 prevValid=1 freq=44100 submitted=27783 target=27783
+  clk GetPosition hr=00000000 pos=24774 prev=23552 prevValid=1 freq=44100 submitted=27783 target=27783
+  clk GetPosition hr=00000000 pos=25600 prev=24774 prevValid=1 freq=44100 submitted=27783 target=27783
+  clk GetPosition hr=00000000 pos=26890 prev=25600 prevValid=1 freq=44100 submitted=27783 target=27783
+  clk GetPosition hr=00000000 pos=28243 prev=26890 prevValid=1 freq=44100 submitted=27783 target=27783
+RESULT PASS complete=1 hr=00000000 waits=0 fills=21
+OPEN rate=44100 bits=24 wait=0 tail=1 pause=0 notify=1 initialWait=1 hr=00000000 frames=1323
+  api IAudioClient::Start (post-prime) hr=00000000
+  api resume Prepare hr=00000000 (Start follows, then fill)
+  api IAudioClient::Start (resume, before fill) hr=00000000
+  clk GetPosition hr=00000000 pos=43 prev=0 prevValid=0 freq=44100 submitted=0 target=0
+  clk GetPosition hr=00000000 pos=43 prev=43 prevValid=1 freq=44100 submitted=1323 target=5335
+  clk GetPosition hr=00000000 pos=43 prev=43 prevValid=1 freq=44100 submitted=2646 target=6658
+  clk GetPosition hr=00000000 pos=43 prev=43 prevValid=1 freq=44100 submitted=3969 target=7981
+  clk GetPosition hr=00000000 pos=43 prev=43 prevValid=1 freq=44100 submitted=5292 target=9304
+  clk GetPosition hr=00000000 pos=3072 prev=43 prevValid=1 freq=44100 submitted=6615 target=10627
+  clk GetPosition hr=00000000 pos=4096 prev=3072 prevValid=1 freq=44100 submitted=7938 target=11950
+  clk GetPosition hr=00000000 pos=5120 prev=4096 prevValid=1 freq=44100 submitted=9261 target=13273
+  clk GetPosition hr=00000000 pos=7168 prev=5120 prevValid=1 freq=44100 submitted=10584 target=14596
+  clk GetPosition hr=00000000 pos=8192 prev=7168 prevValid=1 freq=44100 submitted=11907 target=15919
+  clk GetPosition hr=00000000 pos=9216 prev=8192 prevValid=1 freq=44100 submitted=13230 target=17242
+  clk GetPosition hr=00000000 pos=10240 prev=9216 prevValid=1 freq=44100 submitted=14553 target=18565
+  clk GetPosition hr=00000000 pos=12288 prev=10240 prevValid=1 freq=44100 submitted=15876 target=19888
+  clk GetPosition hr=00000000 pos=13312 prev=12288 prevValid=1 freq=44100 submitted=17199 target=21211
+  clk GetPosition hr=00000000 pos=14336 prev=13312 prevValid=1 freq=44100 submitted=18522 target=22534
+  clk GetPosition hr=00000000 pos=16384 prev=14336 prevValid=1 freq=44100 submitted=19845 target=23857
+  clk GetPosition hr=00000000 pos=17408 prev=16384 prevValid=1 freq=44100 submitted=21168 target=25180
+  clk GetPosition hr=00000000 pos=18432 prev=17408 prevValid=1 freq=44100 submitted=22491 target=26503
+  clk GetPosition hr=00000000 pos=19456 prev=18432 prevValid=1 freq=44100 submitted=23814 target=27826
+  clk GetPosition hr=00000000 pos=21504 prev=19456 prevValid=1 freq=44100 submitted=25137 target=29149
+  clk GetPosition hr=00000000 pos=22528 prev=21504 prevValid=1 freq=44100 submitted=26460 target=30472
+  clk GetPosition hr=00000000 pos=22528 prev=22528 prevValid=1 freq=44100 submitted=27783 target=31795
+  clk GetPosition hr=00000000 pos=23552 prev=22528 prevValid=1 freq=44100 submitted=27783 target=31795
+  clk GetPosition hr=00000000 pos=24834 prev=23552 prevValid=1 freq=44100 submitted=27783 target=31795
+  clk GetPosition hr=00000000 pos=25600 prev=24834 prevValid=1 freq=44100 submitted=27783 target=31795
+  clk GetPosition hr=00000000 pos=26838 prev=25600 prevValid=1 freq=44100 submitted=27783 target=31795
+  clk GetPosition hr=00000000 pos=28211 prev=26838 prevValid=1 freq=44100 submitted=27783 target=31795
+  clk GetPosition hr=00000000 pos=29584 prev=28211 prevValid=1 freq=44100 submitted=27783 target=31795
+  clk GetPosition hr=00000000 pos=30824 prev=29584 prevValid=1 freq=44100 submitted=27783 target=31795
+  clk GetPosition hr=00000000 pos=32166 prev=30824 prevValid=1 freq=44100 submitted=27783 target=31795
+RESULT PASS complete=1 hr=00000000 waits=1 fills=21
+OPEN rate=44100 bits=24 wait=1 tail=0 pause=0 notify=0 initialWait=0 hr=00000000 frames=1323
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=43 prev=0 prevValid=0 freq=44100 submitted=1323 target=1323
+  clk GetPosition hr=00000000 pos=87 prev=43 prevValid=1 freq=44100 submitted=2646 target=2646
+  clk GetPosition hr=00000000 pos=87 prev=87 prevValid=1 freq=44100 submitted=3969 target=3969
+  clk GetPosition hr=00000000 pos=3072 prev=87 prevValid=1 freq=44100 submitted=5292 target=5292
+  clk GetPosition hr=00000000 pos=4096 prev=3072 prevValid=1 freq=44100 submitted=6615 target=6615
+  clk GetPosition hr=00000000 pos=5120 prev=4096 prevValid=1 freq=44100 submitted=7938 target=7938
+  clk GetPosition hr=00000000 pos=7168 prev=5120 prevValid=1 freq=44100 submitted=9261 target=9261
+  clk GetPosition hr=00000000 pos=8192 prev=7168 prevValid=1 freq=44100 submitted=10584 target=10584
+  clk GetPosition hr=00000000 pos=9216 prev=8192 prevValid=1 freq=44100 submitted=11907 target=11907
+  clk GetPosition hr=00000000 pos=10240 prev=9216 prevValid=1 freq=44100 submitted=13230 target=13230
+  clk GetPosition hr=00000000 pos=12288 prev=10240 prevValid=1 freq=44100 submitted=14553 target=14553
+  clk GetPosition hr=00000000 pos=13312 prev=12288 prevValid=1 freq=44100 submitted=15876 target=15876
+  clk GetPosition hr=00000000 pos=14336 prev=13312 prevValid=1 freq=44100 submitted=17199 target=17199
+  clk GetPosition hr=00000000 pos=16384 prev=14336 prevValid=1 freq=44100 submitted=18522 target=18522
+  clk GetPosition hr=00000000 pos=17408 prev=16384 prevValid=1 freq=44100 submitted=19845 target=19845
+  clk GetPosition hr=00000000 pos=18432 prev=17408 prevValid=1 freq=44100 submitted=21168 target=21168
+  clk GetPosition hr=00000000 pos=19456 prev=18432 prevValid=1 freq=44100 submitted=22491 target=22491
+  clk GetPosition hr=00000000 pos=21504 prev=19456 prevValid=1 freq=44100 submitted=23814 target=23814
+  clk GetPosition hr=00000000 pos=22528 prev=21504 prevValid=1 freq=44100 submitted=25137 target=25137
+  api resume Prepare hr=00000000 (Start follows, then fill)
+  api IAudioClient::Start (resume, before fill) hr=00000000
+  clk GetPosition hr=00000000 pos=25600 prev=22528 prevValid=0 freq=44100 submitted=26460 target=26460
+  clk GetPosition hr=00000000 pos=25600 prev=25600 prevValid=1 freq=44100 submitted=27783 target=27783
+  clk GetPosition hr=00000000 pos=25644 prev=25600 prevValid=1 freq=44100 submitted=27783 target=27783
+  clk GetPosition hr=00000000 pos=26981 prev=25644 prevValid=1 freq=44100 submitted=27783 target=27783
+  clk GetPosition hr=00000000 pos=28354 prev=26981 prevValid=1 freq=44100 submitted=27783 target=27783
+RESULT PASS complete=1 hr=00000000 waits=1 fills=21
+OPEN rate=44100 bits=24 wait=1 tail=1 pause=0 notify=0 initialWait=0 hr=00000000 frames=1323
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=88 prev=0 prevValid=0 freq=44100 submitted=1323 target=1323
+  clk GetPosition hr=00000000 pos=88 prev=88 prevValid=1 freq=44100 submitted=2646 target=2646
+  clk GetPosition hr=00000000 pos=88 prev=88 prevValid=1 freq=44100 submitted=3969 target=3969
+  clk GetPosition hr=00000000 pos=3072 prev=88 prevValid=1 freq=44100 submitted=5292 target=5292
+  clk GetPosition hr=00000000 pos=4096 prev=3072 prevValid=1 freq=44100 submitted=6615 target=6615
+  clk GetPosition hr=00000000 pos=5120 prev=4096 prevValid=1 freq=44100 submitted=7938 target=7938
+  clk GetPosition hr=00000000 pos=7168 prev=5120 prevValid=1 freq=44100 submitted=9261 target=9261
+  clk GetPosition hr=00000000 pos=8192 prev=7168 prevValid=1 freq=44100 submitted=10584 target=10584
+  clk GetPosition hr=00000000 pos=9216 prev=8192 prevValid=1 freq=44100 submitted=11907 target=11907
+  clk GetPosition hr=00000000 pos=10240 prev=9216 prevValid=1 freq=44100 submitted=13230 target=13230
+  clk GetPosition hr=00000000 pos=12288 prev=10240 prevValid=1 freq=44100 submitted=14553 target=14553
+  clk GetPosition hr=00000000 pos=13312 prev=12288 prevValid=1 freq=44100 submitted=15876 target=15876
+  clk GetPosition hr=00000000 pos=14336 prev=13312 prevValid=1 freq=44100 submitted=17199 target=17199
+  clk GetPosition hr=00000000 pos=16384 prev=14336 prevValid=1 freq=44100 submitted=18522 target=18522
+  clk GetPosition hr=00000000 pos=17408 prev=16384 prevValid=1 freq=44100 submitted=19845 target=19845
+  clk GetPosition hr=00000000 pos=18432 prev=17408 prevValid=1 freq=44100 submitted=21168 target=21168
+  clk GetPosition hr=00000000 pos=19456 prev=18432 prevValid=1 freq=44100 submitted=22491 target=22491
+  clk GetPosition hr=00000000 pos=21504 prev=19456 prevValid=1 freq=44100 submitted=23814 target=23814
+  clk GetPosition hr=00000000 pos=22528 prev=21504 prevValid=1 freq=44100 submitted=25137 target=25137
+  api resume Prepare hr=00000000 (Start follows, then fill)
+  api IAudioClient::Start (resume, before fill) hr=00000000
+  clk GetPosition hr=00000000 pos=25600 prev=22528 prevValid=0 freq=44100 submitted=26460 target=26460
+  clk GetPosition hr=00000000 pos=25600 prev=25600 prevValid=1 freq=44100 submitted=27783 target=27783
+  clk GetPosition hr=00000000 pos=25643 prev=25600 prevValid=1 freq=44100 submitted=27783 target=27783
+  clk GetPosition hr=00000000 pos=26970 prev=25643 prevValid=1 freq=44100 submitted=27783 target=27783
+  clk GetPosition hr=00000000 pos=28383 prev=26970 prevValid=1 freq=44100 submitted=27783 target=27783
+RESULT PASS complete=1 hr=00000000 waits=1 fills=21
+OPEN rate=44100 bits=24 wait=1 tail=2 pause=0 notify=0 initialWait=0 hr=00000000 frames=1323
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=43 prev=0 prevValid=0 freq=44100 submitted=1323 target=1323
+  clk GetPosition hr=00000000 pos=43 prev=43 prevValid=1 freq=44100 submitted=2646 target=2646
+  clk GetPosition hr=00000000 pos=43 prev=43 prevValid=1 freq=44100 submitted=3969 target=3969
+  clk GetPosition hr=00000000 pos=3072 prev=43 prevValid=1 freq=44100 submitted=5292 target=5292
+  clk GetPosition hr=00000000 pos=4096 prev=3072 prevValid=1 freq=44100 submitted=6615 target=6615
+  clk GetPosition hr=00000000 pos=5120 prev=4096 prevValid=1 freq=44100 submitted=7938 target=7938
+  clk GetPosition hr=00000000 pos=7168 prev=5120 prevValid=1 freq=44100 submitted=9261 target=9261
+  clk GetPosition hr=00000000 pos=8192 prev=7168 prevValid=1 freq=44100 submitted=10584 target=10584
+  clk GetPosition hr=00000000 pos=9216 prev=8192 prevValid=1 freq=44100 submitted=11907 target=11907
+  clk GetPosition hr=00000000 pos=10240 prev=9216 prevValid=1 freq=44100 submitted=13230 target=13230
+  clk GetPosition hr=00000000 pos=12288 prev=10240 prevValid=1 freq=44100 submitted=14553 target=14553
+  clk GetPosition hr=00000000 pos=13312 prev=12288 prevValid=1 freq=44100 submitted=15876 target=15876
+  clk GetPosition hr=00000000 pos=14336 prev=13312 prevValid=1 freq=44100 submitted=17199 target=17199
+  clk GetPosition hr=00000000 pos=16384 prev=14336 prevValid=1 freq=44100 submitted=18522 target=18522
+  clk GetPosition hr=00000000 pos=17408 prev=16384 prevValid=1 freq=44100 submitted=19845 target=19845
+  clk GetPosition hr=00000000 pos=18432 prev=17408 prevValid=1 freq=44100 submitted=21168 target=21168
+  clk GetPosition hr=00000000 pos=19456 prev=18432 prevValid=1 freq=44100 submitted=22491 target=22491
+  clk GetPosition hr=00000000 pos=21504 prev=19456 prevValid=1 freq=44100 submitted=23814 target=23814
+  clk GetPosition hr=00000000 pos=22528 prev=21504 prevValid=1 freq=44100 submitted=25137 target=25137
+  api resume Prepare hr=00000000 (Start follows, then fill)
+  api IAudioClient::Start (resume, before fill) hr=00000000
+  clk GetPosition hr=00000000 pos=25642 prev=22528 prevValid=0 freq=44100 submitted=26460 target=26460
+  clk GetPosition hr=00000000 pos=25642 prev=25642 prevValid=1 freq=44100 submitted=27783 target=27783
+  clk GetPosition hr=00000000 pos=25642 prev=25642 prevValid=1 freq=44100 submitted=27783 target=27783
+  clk GetPosition hr=00000000 pos=27010 prev=25642 prevValid=1 freq=44100 submitted=27783 target=27783
+  clk GetPosition hr=00000000 pos=28422 prev=27010 prevValid=1 freq=44100 submitted=27783 target=27783
+RESULT PASS complete=1 hr=00000000 waits=1 fills=21
+OPEN rate=44100 bits=24 wait=1 tail=1 pause=1 notify=0 initialWait=0 hr=00000000 frames=1323
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=42 prev=0 prevValid=0 freq=44100 submitted=1323 target=1323
+  clk GetPosition hr=00000000 pos=42 prev=42 prevValid=1 freq=44100 submitted=2646 target=2646
+  clk GetPosition hr=00000000 pos=42 prev=42 prevValid=1 freq=44100 submitted=3969 target=3969
+  clk GetPosition hr=00000000 pos=3072 prev=42 prevValid=1 freq=44100 submitted=5292 target=5292
+  clk GetPosition hr=00000000 pos=4096 prev=3072 prevValid=1 freq=44100 submitted=6615 target=6615
+  clk GetPosition hr=00000000 pos=5120 prev=4096 prevValid=1 freq=44100 submitted=7938 target=7938
+  clk GetPosition hr=00000000 pos=7168 prev=5120 prevValid=1 freq=44100 submitted=9261 target=9261
+  clk GetPosition hr=00000000 pos=8192 prev=7168 prevValid=1 freq=44100 submitted=10584 target=10584
+  clk GetPosition hr=00000000 pos=9216 prev=8192 prevValid=1 freq=44100 submitted=11907 target=11907
+  clk GetPosition hr=00000000 pos=10240 prev=9216 prevValid=1 freq=44100 submitted=13230 target=13230
+  clk GetPosition hr=00000000 pos=12288 prev=10240 prevValid=1 freq=44100 submitted=14553 target=14553
+  clk GetPosition hr=00000000 pos=13312 prev=12288 prevValid=1 freq=44100 submitted=15876 target=15876
+  clk GetPosition hr=00000000 pos=14336 prev=13312 prevValid=1 freq=44100 submitted=17199 target=17199
+  clk GetPosition hr=00000000 pos=16384 prev=14336 prevValid=1 freq=44100 submitted=18522 target=18522
+  clk GetPosition hr=00000000 pos=17408 prev=16384 prevValid=1 freq=44100 submitted=19845 target=19845
+  clk GetPosition hr=00000000 pos=18432 prev=17408 prevValid=1 freq=44100 submitted=21168 target=21168
+  clk GetPosition hr=00000000 pos=19456 prev=18432 prevValid=1 freq=44100 submitted=22491 target=22491
+  clk GetPosition hr=00000000 pos=21504 prev=19456 prevValid=1 freq=44100 submitted=23814 target=23814
+  clk GetPosition hr=00000000 pos=22528 prev=21504 prevValid=1 freq=44100 submitted=25137 target=25137
+  api resume Prepare hr=00000000 (Start follows, then fill)
+  api IAudioClient::Start (resume, before fill) hr=00000000
+  clk GetPosition hr=00000000 pos=25643 prev=22528 prevValid=0 freq=44100 submitted=26460 target=26460
+  clk GetPosition hr=00000000 pos=25643 prev=25643 prevValid=1 freq=44100 submitted=27783 target=27783
+  clk GetPosition hr=00000000 pos=25643 prev=25643 prevValid=1 freq=44100 submitted=27783 target=27783
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=29059 prev=25643 prevValid=0 freq=44100 submitted=27783 target=27783
+RESULT PASS complete=1 hr=00000000 waits=1 fills=21
+OPEN rate=44100 bits=16 wait=1 tail=1 pause=0 notify=0 initialWait=0 hr=00000000 frames=1323
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=42 prev=0 prevValid=0 freq=44100 submitted=1323 target=1323
+  clk GetPosition hr=00000000 pos=42 prev=42 prevValid=1 freq=44100 submitted=2646 target=2646
+  clk GetPosition hr=00000000 pos=42 prev=42 prevValid=1 freq=44100 submitted=3969 target=3969
+  clk GetPosition hr=00000000 pos=3072 prev=42 prevValid=1 freq=44100 submitted=5292 target=5292
+  clk GetPosition hr=00000000 pos=4096 prev=3072 prevValid=1 freq=44100 submitted=6615 target=6615
+  clk GetPosition hr=00000000 pos=5120 prev=4096 prevValid=1 freq=44100 submitted=7938 target=7938
+  clk GetPosition hr=00000000 pos=7168 prev=5120 prevValid=1 freq=44100 submitted=9261 target=9261
+  clk GetPosition hr=00000000 pos=8192 prev=7168 prevValid=1 freq=44100 submitted=10584 target=10584
+  clk GetPosition hr=00000000 pos=9216 prev=8192 prevValid=1 freq=44100 submitted=11907 target=11907
+  clk GetPosition hr=00000000 pos=10240 prev=9216 prevValid=1 freq=44100 submitted=13230 target=13230
+  clk GetPosition hr=00000000 pos=12288 prev=10240 prevValid=1 freq=44100 submitted=14553 target=14553
+  clk GetPosition hr=00000000 pos=13312 prev=12288 prevValid=1 freq=44100 submitted=15876 target=15876
+  clk GetPosition hr=00000000 pos=14336 prev=13312 prevValid=1 freq=44100 submitted=17199 target=17199
+  clk GetPosition hr=00000000 pos=16384 prev=14336 prevValid=1 freq=44100 submitted=18522 target=18522
+  clk GetPosition hr=00000000 pos=17408 prev=16384 prevValid=1 freq=44100 submitted=19845 target=19845
+  clk GetPosition hr=00000000 pos=18432 prev=17408 prevValid=1 freq=44100 submitted=21168 target=21168
+  clk GetPosition hr=00000000 pos=19456 prev=18432 prevValid=1 freq=44100 submitted=22491 target=22491
+  clk GetPosition hr=00000000 pos=21504 prev=19456 prevValid=1 freq=44100 submitted=23814 target=23814
+  clk GetPosition hr=00000000 pos=22528 prev=21504 prevValid=1 freq=44100 submitted=25137 target=25137
+  api resume Prepare hr=00000000 (Start follows, then fill)
+  api IAudioClient::Start (resume, before fill) hr=00000000
+  clk GetPosition hr=00000000 pos=25646 prev=22528 prevValid=0 freq=44100 submitted=26460 target=26460
+  clk GetPosition hr=00000000 pos=25646 prev=25646 prevValid=1 freq=44100 submitted=27783 target=27783
+  clk GetPosition hr=00000000 pos=25646 prev=25646 prevValid=1 freq=44100 submitted=27783 target=27783
+  clk GetPosition hr=00000000 pos=26959 prev=25646 prevValid=1 freq=44100 submitted=27783 target=27783
+  clk GetPosition hr=00000000 pos=28303 prev=26959 prevValid=1 freq=44100 submitted=27783 target=27783
+RESULT PASS complete=1 hr=00000000 waits=1 fills=21
+OPEN rate=44100 bits=24 wait=1 tail=1 pause=0 notify=1 initialWait=1 hr=00000000 frames=1323
+  api IAudioClient::Start (post-prime) hr=00000000
+  api resume Prepare hr=00000000 (Start follows, then fill)
+  api IAudioClient::Start (resume, before fill) hr=00000000
+  clk GetPosition hr=00000000 pos=43 prev=0 prevValid=0 freq=44100 submitted=0 target=0
+  clk GetPosition hr=00000000 pos=43 prev=43 prevValid=1 freq=44100 submitted=1323 target=5335
+  clk GetPosition hr=00000000 pos=43 prev=43 prevValid=1 freq=44100 submitted=2646 target=6658
+  clk GetPosition hr=00000000 pos=43 prev=43 prevValid=1 freq=44100 submitted=3969 target=7981
+  clk GetPosition hr=00000000 pos=43 prev=43 prevValid=1 freq=44100 submitted=5292 target=9304
+  clk GetPosition hr=00000000 pos=3072 prev=43 prevValid=1 freq=44100 submitted=6615 target=10627
+  clk GetPosition hr=00000000 pos=4096 prev=3072 prevValid=1 freq=44100 submitted=7938 target=11950
+  clk GetPosition hr=00000000 pos=5120 prev=4096 prevValid=1 freq=44100 submitted=9261 target=13273
+  clk GetPosition hr=00000000 pos=7168 prev=5120 prevValid=1 freq=44100 submitted=10584 target=14596
+  clk GetPosition hr=00000000 pos=8192 prev=7168 prevValid=1 freq=44100 submitted=11907 target=15919
+  clk GetPosition hr=00000000 pos=9216 prev=8192 prevValid=1 freq=44100 submitted=13230 target=17242
+  clk GetPosition hr=00000000 pos=10240 prev=9216 prevValid=1 freq=44100 submitted=14553 target=18565
+  clk GetPosition hr=00000000 pos=12288 prev=10240 prevValid=1 freq=44100 submitted=15876 target=19888
+  clk GetPosition hr=00000000 pos=13312 prev=12288 prevValid=1 freq=44100 submitted=17199 target=21211
+  clk GetPosition hr=00000000 pos=14336 prev=13312 prevValid=1 freq=44100 submitted=18522 target=22534
+  clk GetPosition hr=00000000 pos=16384 prev=14336 prevValid=1 freq=44100 submitted=19845 target=23857
+  clk GetPosition hr=00000000 pos=17408 prev=16384 prevValid=1 freq=44100 submitted=21168 target=25180
+  clk GetPosition hr=00000000 pos=18432 prev=17408 prevValid=1 freq=44100 submitted=22491 target=26503
+  clk GetPosition hr=00000000 pos=19456 prev=18432 prevValid=1 freq=44100 submitted=23814 target=27826
+  clk GetPosition hr=00000000 pos=21504 prev=19456 prevValid=1 freq=44100 submitted=25137 target=29149
+  api resume Prepare hr=00000000 (Start follows, then fill)
+  api IAudioClient::Start (resume, before fill) hr=00000000
+  clk GetPosition hr=00000000 pos=25646 prev=21504 prevValid=0 freq=44100 submitted=26460 target=30472
+  clk GetPosition hr=00000000 pos=25646 prev=25646 prevValid=1 freq=44100 submitted=27783 target=31795
+  clk GetPosition hr=00000000 pos=25646 prev=25646 prevValid=1 freq=44100 submitted=27783 target=31795
+  clk GetPosition hr=00000000 pos=26937 prev=25646 prevValid=1 freq=44100 submitted=27783 target=31795
+  clk GetPosition hr=00000000 pos=28308 prev=26937 prevValid=1 freq=44100 submitted=27783 target=31795
+  clk GetPosition hr=00000000 pos=29686 prev=28308 prevValid=1 freq=44100 submitted=27783 target=31795
+  clk GetPosition hr=00000000 pos=31024 prev=29686 prevValid=1 freq=44100 submitted=27783 target=31795
+  clk GetPosition hr=00000000 pos=32390 prev=31024 prevValid=1 freq=44100 submitted=27783 target=31795
+RESULT PASS complete=1 hr=00000000 waits=2 fills=21
+36 hardware cases: 0 failed

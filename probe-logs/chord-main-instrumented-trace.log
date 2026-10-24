@@ -1,0 +1,272 @@
+﻿OPEN rate=192000 bits=24 wait=0 tail=0 pause=0 notify=0 initialWait=0 hr=00000000 frames=5760
+  clk GetPosition hr=00000000 pos=768 prev=0 prevValid=0 freq=192000 submitted=0 target=0
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=191 prev=768 prevValid=1 freq=192000 submitted=5760 target=23808
+RESULT FAIL complete=0 hr=8000ffff waits=0 fills=1
+OPEN rate=192000 bits=24 wait=0 tail=1 pause=0 notify=0 initialWait=0 hr=00000000 frames=5760
+  clk GetPosition hr=00000000 pos=761 prev=0 prevValid=0 freq=192000 submitted=0 target=0
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=0 prev=761 prevValid=1 freq=192000 submitted=5760 target=23801
+RESULT FAIL complete=0 hr=8000ffff waits=0 fills=1
+OPEN rate=192000 bits=24 wait=0 tail=2 pause=0 notify=0 initialWait=0 hr=00000000 frames=5760
+  clk GetPosition hr=00000000 pos=669 prev=0 prevValid=0 freq=192000 submitted=0 target=0
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=0 prev=669 prevValid=1 freq=192000 submitted=5760 target=23709
+RESULT FAIL complete=0 hr=8000ffff waits=0 fills=1
+OPEN rate=192000 bits=24 wait=0 tail=1 pause=1 notify=0 initialWait=0 hr=00000000 frames=5760
+  clk GetPosition hr=00000000 pos=767 prev=0 prevValid=0 freq=192000 submitted=0 target=0
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=192 prev=767 prevValid=1 freq=192000 submitted=5760 target=23807
+RESULT FAIL complete=0 hr=8000ffff waits=0 fills=1
+OPEN rate=192000 bits=16 wait=0 tail=1 pause=0 notify=0 initialWait=0 hr=00000000 frames=5760
+  clk GetPosition hr=00000000 pos=569 prev=0 prevValid=0 freq=192000 submitted=0 target=0
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=191 prev=569 prevValid=1 freq=192000 submitted=5760 target=23609
+RESULT FAIL complete=0 hr=8000ffff waits=0 fills=1
+OPEN rate=192000 bits=24 wait=0 tail=1 pause=0 notify=1 initialWait=1 hr=00000000 frames=5760
+  api IAudioClient::Start (post-prime) hr=00000000
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  clk GetPosition hr=00000000 pos=37775 prev=0 prevValid=0 freq=192000 submitted=0 target=0
+  api IAudioClient::Start (resume, after fill) hr=00000000
+  clk GetPosition hr=00000000 pos=0 prev=37775 prevValid=1 freq=192000 submitted=5760 target=60815
+RESULT FAIL complete=0 hr=8000ffff waits=14 fills=1
+OPEN rate=192000 bits=24 wait=1 tail=0 pause=0 notify=0 initialWait=0 hr=00000000 frames=5760
+  clk GetPosition hr=00000000 pos=570 prev=0 prevValid=0 freq=192000 submitted=0 target=0
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=0 prev=570 prevValid=1 freq=192000 submitted=5760 target=23610
+RESULT FAIL complete=0 hr=8000ffff waits=0 fills=1
+OPEN rate=192000 bits=24 wait=1 tail=1 pause=0 notify=0 initialWait=0 hr=00000000 frames=5760
+  clk GetPosition hr=00000000 pos=762 prev=0 prevValid=0 freq=192000 submitted=0 target=0
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=197 prev=762 prevValid=1 freq=192000 submitted=5760 target=23802
+RESULT FAIL complete=0 hr=8000ffff waits=0 fills=1
+OPEN rate=192000 bits=24 wait=1 tail=2 pause=0 notify=0 initialWait=0 hr=00000000 frames=5760
+  clk GetPosition hr=00000000 pos=567 prev=0 prevValid=0 freq=192000 submitted=0 target=0
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=191 prev=567 prevValid=1 freq=192000 submitted=5760 target=23607
+RESULT FAIL complete=0 hr=8000ffff waits=0 fills=1
+OPEN rate=192000 bits=24 wait=1 tail=1 pause=1 notify=0 initialWait=0 hr=00000000 frames=5760
+  clk GetPosition hr=00000000 pos=569 prev=0 prevValid=0 freq=192000 submitted=0 target=0
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=192 prev=569 prevValid=1 freq=192000 submitted=5760 target=23609
+RESULT FAIL complete=0 hr=8000ffff waits=0 fills=1
+OPEN rate=192000 bits=16 wait=1 tail=1 pause=0 notify=0 initialWait=0 hr=00000000 frames=5760
+  clk GetPosition hr=00000000 pos=570 prev=0 prevValid=0 freq=192000 submitted=0 target=0
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=0 prev=570 prevValid=1 freq=192000 submitted=5760 target=23610
+RESULT FAIL complete=0 hr=8000ffff waits=0 fills=1
+OPEN rate=192000 bits=24 wait=1 tail=1 pause=0 notify=1 initialWait=1 hr=00000000 frames=5760
+  api IAudioClient::Start (post-prime) hr=00000000
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  clk GetPosition hr=00000000 pos=38648 prev=0 prevValid=0 freq=192000 submitted=0 target=0
+  api IAudioClient::Start (resume, after fill) hr=00000000
+  clk GetPosition hr=00000000 pos=184 prev=38648 prevValid=1 freq=192000 submitted=5760 target=61688
+RESULT FAIL complete=0 hr=8000ffff waits=14 fills=1
+OPEN rate=96000 bits=24 wait=0 tail=0 pause=0 notify=0 initialWait=0 hr=00000000 frames=2880
+  clk GetPosition hr=00000000 pos=383 prev=0 prevValid=0 freq=96000 submitted=0 target=0
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=96 prev=383 prevValid=1 freq=96000 submitted=2880 target=11903
+RESULT FAIL complete=0 hr=8000ffff waits=0 fills=1
+OPEN rate=96000 bits=24 wait=0 tail=1 pause=0 notify=0 initialWait=0 hr=00000000 frames=2880
+  clk GetPosition hr=00000000 pos=383 prev=0 prevValid=0 freq=96000 submitted=0 target=0
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=99 prev=383 prevValid=1 freq=96000 submitted=2880 target=11903
+RESULT FAIL complete=0 hr=8000ffff waits=0 fills=1
+OPEN rate=96000 bits=24 wait=0 tail=2 pause=0 notify=0 initialWait=0 hr=00000000 frames=2880
+  clk GetPosition hr=00000000 pos=283 prev=0 prevValid=0 freq=96000 submitted=0 target=0
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=95 prev=283 prevValid=1 freq=96000 submitted=2880 target=11803
+RESULT FAIL complete=0 hr=8000ffff waits=0 fills=1
+OPEN rate=96000 bits=24 wait=0 tail=1 pause=1 notify=0 initialWait=0 hr=00000000 frames=2880
+  clk GetPosition hr=00000000 pos=285 prev=0 prevValid=0 freq=96000 submitted=0 target=0
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=0 prev=285 prevValid=1 freq=96000 submitted=2880 target=11805
+RESULT FAIL complete=0 hr=8000ffff waits=0 fills=1
+OPEN rate=96000 bits=16 wait=0 tail=1 pause=0 notify=0 initialWait=0 hr=00000000 frames=2880
+  clk GetPosition hr=00000000 pos=381 prev=0 prevValid=0 freq=96000 submitted=0 target=0
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=95 prev=381 prevValid=1 freq=96000 submitted=2880 target=11901
+RESULT FAIL complete=0 hr=8000ffff waits=0 fills=1
+OPEN rate=96000 bits=24 wait=0 tail=1 pause=0 notify=1 initialWait=1 hr=00000000 frames=2880
+  api IAudioClient::Start (post-prime) hr=00000000
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  clk GetPosition hr=00000000 pos=19242 prev=0 prevValid=0 freq=96000 submitted=0 target=0
+  api IAudioClient::Start (resume, after fill) hr=00000000
+  clk GetPosition hr=00000000 pos=96 prev=19242 prevValid=1 freq=96000 submitted=2880 target=30762
+RESULT FAIL complete=0 hr=8000ffff waits=14 fills=1
+OPEN rate=96000 bits=24 wait=1 tail=0 pause=0 notify=0 initialWait=0 hr=00000000 frames=2880
+  clk GetPosition hr=00000000 pos=283 prev=0 prevValid=0 freq=96000 submitted=0 target=0
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=96 prev=283 prevValid=1 freq=96000 submitted=2880 target=11803
+RESULT FAIL complete=0 hr=8000ffff waits=0 fills=1
+OPEN rate=96000 bits=24 wait=1 tail=1 pause=0 notify=0 initialWait=0 hr=00000000 frames=2880
+  clk GetPosition hr=00000000 pos=379 prev=0 prevValid=0 freq=96000 submitted=0 target=0
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=95 prev=379 prevValid=1 freq=96000 submitted=2880 target=11899
+RESULT FAIL complete=0 hr=8000ffff waits=0 fills=1
+OPEN rate=96000 bits=24 wait=1 tail=2 pause=0 notify=0 initialWait=0 hr=00000000 frames=2880
+  clk GetPosition hr=00000000 pos=284 prev=0 prevValid=0 freq=96000 submitted=0 target=0
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=0 prev=284 prevValid=1 freq=96000 submitted=2880 target=11804
+RESULT FAIL complete=0 hr=8000ffff waits=0 fills=1
+OPEN rate=96000 bits=24 wait=1 tail=1 pause=1 notify=0 initialWait=0 hr=00000000 frames=2880
+  clk GetPosition hr=00000000 pos=381 prev=0 prevValid=0 freq=96000 submitted=0 target=0
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=95 prev=381 prevValid=1 freq=96000 submitted=2880 target=11901
+RESULT FAIL complete=0 hr=8000ffff waits=0 fills=1
+OPEN rate=96000 bits=16 wait=1 tail=1 pause=0 notify=0 initialWait=0 hr=00000000 frames=2880
+  clk GetPosition hr=00000000 pos=380 prev=0 prevValid=0 freq=96000 submitted=0 target=0
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=95 prev=380 prevValid=1 freq=96000 submitted=2880 target=11900
+RESULT FAIL complete=0 hr=8000ffff waits=0 fills=1
+OPEN rate=96000 bits=24 wait=1 tail=1 pause=0 notify=1 initialWait=1 hr=00000000 frames=2880
+  api IAudioClient::Start (post-prime) hr=00000000
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  clk GetPosition hr=00000000 pos=19931 prev=0 prevValid=0 freq=96000 submitted=0 target=0
+  api IAudioClient::Start (resume, after fill) hr=00000000
+  clk GetPosition hr=00000000 pos=96 prev=19931 prevValid=1 freq=96000 submitted=2880 target=31451
+RESULT FAIL complete=0 hr=8000ffff waits=14 fills=1
+OPEN rate=44100 bits=24 wait=0 tail=0 pause=0 notify=0 initialWait=0 hr=00000000 frames=1323
+  clk GetPosition hr=00000000 pos=130 prev=0 prevValid=0 freq=44100 submitted=0 target=0
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=44 prev=130 prevValid=1 freq=44100 submitted=1323 target=5422
+RESULT FAIL complete=0 hr=8000ffff waits=0 fills=1
+OPEN rate=44100 bits=24 wait=0 tail=1 pause=0 notify=0 initialWait=0 hr=00000000 frames=1323
+  clk GetPosition hr=00000000 pos=156 prev=0 prevValid=0 freq=44100 submitted=0 target=0
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=0 prev=156 prevValid=1 freq=44100 submitted=1323 target=5448
+RESULT FAIL complete=0 hr=8000ffff waits=0 fills=1
+OPEN rate=44100 bits=24 wait=0 tail=2 pause=0 notify=0 initialWait=0 hr=00000000 frames=1323
+  clk GetPosition hr=00000000 pos=130 prev=0 prevValid=0 freq=44100 submitted=0 target=0
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=44 prev=130 prevValid=1 freq=44100 submitted=1323 target=5422
+RESULT FAIL complete=0 hr=8000ffff waits=0 fills=1
+OPEN rate=44100 bits=24 wait=0 tail=1 pause=1 notify=0 initialWait=0 hr=00000000 frames=1323
+  clk GetPosition hr=00000000 pos=130 prev=0 prevValid=0 freq=44100 submitted=0 target=0
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=44 prev=130 prevValid=1 freq=44100 submitted=1323 target=5422
+RESULT FAIL complete=0 hr=8000ffff waits=0 fills=1
+OPEN rate=44100 bits=16 wait=0 tail=1 pause=0 notify=0 initialWait=0 hr=00000000 frames=1323
+  clk GetPosition hr=00000000 pos=130 prev=0 prevValid=0 freq=44100 submitted=0 target=0
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=44 prev=130 prevValid=1 freq=44100 submitted=1323 target=5422
+RESULT FAIL complete=0 hr=8000ffff waits=0 fills=1
+OPEN rate=44100 bits=24 wait=0 tail=1 pause=0 notify=1 initialWait=1 hr=00000000 frames=1323
+  api IAudioClient::Start (post-prime) hr=00000000
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  clk GetPosition hr=00000000 pos=9073 prev=0 prevValid=0 freq=44100 submitted=0 target=0
+  api IAudioClient::Start (resume, after fill) hr=00000000
+  clk GetPosition hr=00000000 pos=42 prev=9073 prevValid=1 freq=44100 submitted=1323 target=14365
+RESULT FAIL complete=0 hr=8000ffff waits=14 fills=1
+OPEN rate=44100 bits=24 wait=1 tail=0 pause=0 notify=0 initialWait=0 hr=00000000 frames=1323
+  clk GetPosition hr=00000000 pos=140 prev=0 prevValid=0 freq=44100 submitted=0 target=0
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=0 prev=140 prevValid=1 freq=44100 submitted=1323 target=5432
+RESULT FAIL complete=0 hr=8000ffff waits=0 fills=1
+OPEN rate=44100 bits=24 wait=1 tail=1 pause=0 notify=0 initialWait=0 hr=00000000 frames=1323
+  clk GetPosition hr=00000000 pos=130 prev=0 prevValid=0 freq=44100 submitted=0 target=0
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=44 prev=130 prevValid=1 freq=44100 submitted=1323 target=5422
+RESULT FAIL complete=0 hr=8000ffff waits=0 fills=1
+OPEN rate=44100 bits=24 wait=1 tail=2 pause=0 notify=0 initialWait=0 hr=00000000 frames=1323
+  clk GetPosition hr=00000000 pos=132 prev=0 prevValid=0 freq=44100 submitted=0 target=0
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=44 prev=132 prevValid=1 freq=44100 submitted=1323 target=5424
+RESULT FAIL complete=0 hr=8000ffff waits=0 fills=1
+OPEN rate=44100 bits=24 wait=1 tail=1 pause=1 notify=0 initialWait=0 hr=00000000 frames=1323
+  clk GetPosition hr=00000000 pos=176 prev=0 prevValid=0 freq=44100 submitted=0 target=0
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=44 prev=176 prevValid=1 freq=44100 submitted=1323 target=5468
+RESULT FAIL complete=0 hr=8000ffff waits=0 fills=1
+OPEN rate=44100 bits=16 wait=1 tail=1 pause=0 notify=0 initialWait=0 hr=00000000 frames=1323
+  clk GetPosition hr=00000000 pos=222 prev=0 prevValid=0 freq=44100 submitted=0 target=0
+  api IAudioClient::Start (post-prime) hr=00000000
+  clk GetPosition hr=00000000 pos=44 prev=222 prevValid=1 freq=44100 submitted=1323 target=5514
+RESULT FAIL complete=0 hr=8000ffff waits=0 fills=1
+OPEN rate=44100 bits=24 wait=1 tail=1 pause=0 notify=1 initialWait=1 hr=00000000 frames=1323
+  api IAudioClient::Start (post-prime) hr=00000000
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  api resume: fill before Start (upstream order)
+  clk GetPosition hr=00000000 pos=9364 prev=0 prevValid=0 freq=44100 submitted=0 target=0
+  api IAudioClient::Start (resume, after fill) hr=00000000
+  clk GetPosition hr=00000000 pos=0 prev=9364 prevValid=1 freq=44100 submitted=1323 target=14656
+RESULT FAIL complete=0 hr=8000ffff waits=15 fills=1
+36 hardware cases: 36 failed
