@@ -1632,6 +1632,18 @@ void AudioCoreRuntime::TryBindGraphLocked() noexcept {
     boundMediaGeneration_.store(generation, std::memory_order_release);
     graphBound_ = true;
     pausedGraphIdentity_ = {};
+    // Pause intent is generation-scoped (see OnTransportSkip). A pause taken
+    // on an earlier generation must not outlive it: when a selection's
+    // confirming skip never arrives, a stale intent blocks
+    // activation of the new stream with every other precondition green.
+    // Binding a new generation means Apple's timeline has moved on.
+    if (userPauseIntent_) {
+        userPauseIntent_ = false;
+        if (callbacks_.logMessage) {
+            callbacks_.logMessage(callbacks_.context,
+                                  L"v2 stale pause intent cleared by new generation bind");
+        }
+    }
     if (!PromotePendingPcmLocked(graphConverter_)) {
         const HRESULT error = E_OUTOFMEMORY;
         Emit(AudioCoreRuntimeEvent::Faulted, error);
