@@ -1,0 +1,109 @@
+OPEN rate=192000 bits=24 wait=0 tail=0 pause=0 notify=0 initialWait=0 fills=21 sealedEmpty=0 hr=00000000 frames=5760
+RESULT PASS complete=1 hr=00000000 waits=0 fills=21 starts=1 earlyStarts=0
+OPEN rate=192000 bits=24 wait=0 tail=1 pause=0 notify=0 initialWait=0 fills=21 sealedEmpty=0 hr=00000000 frames=5760
+RESULT PASS complete=1 hr=00000000 waits=0 fills=21 starts=1 earlyStarts=0
+OPEN rate=192000 bits=24 wait=0 tail=2 pause=0 notify=0 initialWait=0 fills=21 sealedEmpty=0 hr=00000000 frames=5760
+RESULT PASS complete=1 hr=00000000 waits=0 fills=21 starts=1 earlyStarts=0
+OPEN rate=192000 bits=24 wait=0 tail=1 pause=1 notify=0 initialWait=0 fills=21 sealedEmpty=0 hr=00000000 frames=5760
+RESULT PASS complete=1 hr=00000000 waits=0 fills=21 starts=2 earlyStarts=0
+OPEN rate=192000 bits=16 wait=0 tail=1 pause=0 notify=0 initialWait=0 fills=21 sealedEmpty=0 hr=00000000 frames=5760
+RESULT PASS complete=1 hr=00000000 waits=0 fills=21 starts=1 earlyStarts=0
+OPEN rate=192000 bits=24 wait=0 tail=1 pause=0 notify=1 initialWait=1 fills=21 sealedEmpty=0 hr=00000000 frames=5760
+RESULT PASS complete=1 hr=00000000 waits=1 fills=21 starts=1 earlyStarts=0
+OPEN rate=192000 bits=24 wait=1 tail=0 pause=0 notify=0 initialWait=0 fills=21 sealedEmpty=0 hr=00000000 frames=5760
+RESULT PASS complete=1 hr=00000000 waits=1 fills=21 starts=2 earlyStarts=0
+OPEN rate=192000 bits=24 wait=1 tail=1 pause=0 notify=0 initialWait=0 fills=21 sealedEmpty=0 hr=00000000 frames=5760
+RESULT PASS complete=1 hr=00000000 waits=1 fills=21 starts=2 earlyStarts=0
+OPEN rate=192000 bits=24 wait=1 tail=2 pause=0 notify=0 initialWait=0 fills=21 sealedEmpty=0 hr=00000000 frames=5760
+RESULT PASS complete=1 hr=00000000 waits=1 fills=21 starts=2 earlyStarts=0
+OPEN rate=192000 bits=24 wait=1 tail=1 pause=1 notify=0 initialWait=0 fills=21 sealedEmpty=0 hr=00000000 frames=5760
+RESULT PASS complete=1 hr=00000000 waits=1 fills=21 starts=3 earlyStarts=0
+OPEN rate=192000 bits=16 wait=1 tail=1 pause=0 notify=0 initialWait=0 fills=21 sealedEmpty=0 hr=00000000 frames=5760
+RESULT PASS complete=1 hr=00000000 waits=1 fills=21 starts=2 earlyStarts=0
+OPEN rate=192000 bits=24 wait=1 tail=1 pause=0 notify=1 initialWait=1 fills=21 sealedEmpty=0 hr=00000000 frames=5760
+RESULT PASS complete=1 hr=00000000 waits=2 fills=21 starts=2 earlyStarts=0
+OPEN rate=192000 bits=24 wait=0 tail=0 pause=0 notify=0 initialWait=0 fills=1 sealedEmpty=0 hr=00000000 frames=5760
+RESULT PASS complete=1 hr=00000000 waits=0 fills=1 starts=1 earlyStarts=0
+OPEN rate=192000 bits=24 wait=0 tail=1 pause=0 notify=0 initialWait=0 fills=1 sealedEmpty=0 hr=00000000 frames=5760
+RESULT PASS complete=1 hr=00000000 waits=0 fills=1 starts=1 earlyStarts=0
+OPEN rate=192000 bits=24 wait=0 tail=2 pause=0 notify=0 initialWait=0 fills=1 sealedEmpty=0 hr=00000000 frames=5760
+RESULT PASS complete=1 hr=00000000 waits=0 fills=1 starts=1 earlyStarts=0
+OPEN rate=192000 bits=24 wait=0 tail=2 pause=0 notify=1 initialWait=1 fills=1 sealedEmpty=0 hr=00000000 frames=5760
+RESULT PASS complete=1 hr=00000000 waits=1 fills=1 starts=1 earlyStarts=0
+OPEN rate=192000 bits=24 wait=0 tail=0 pause=0 notify=0 initialWait=0 fills=0 sealedEmpty=1 hr=00000000 frames=5760
+RESULT PASS complete=1 hr=00000000 waits=0 fills=0 starts=0 earlyStarts=0
+OPEN rate=192000 bits=24 wait=0 tail=0 pause=0 notify=1 initialWait=1 fills=0 sealedEmpty=1 hr=00000000 frames=5760
+RESULT PASS complete=1 hr=00000000 waits=1 fills=0 starts=0 earlyStarts=0
+OPEN rate=96000 bits=24 wait=0 tail=0 pause=0 notify=0 initialWait=0 fills=21 sealedEmpty=0 hr=00000000 frames=2880
+RESULT PASS complete=1 hr=00000000 waits=0 fills=21 starts=1 earlyStarts=0
+OPEN rate=96000 bits=24 wait=0 tail=1 pause=0 notify=0 initialWait=0 fills=21 sealedEmpty=0 hr=00000000 frames=2880
+RESULT PASS complete=1 hr=00000000 waits=0 fills=21 starts=1 earlyStarts=0
+OPEN rate=96000 bits=24 wait=0 tail=2 pause=0 notify=0 initialWait=0 fills=21 sealedEmpty=0 hr=00000000 frames=2880
+RESULT PASS complete=1 hr=00000000 waits=0 fills=21 starts=1 earlyStarts=0
+OPEN rate=96000 bits=24 wait=0 tail=1 pause=1 notify=0 initialWait=0 fills=21 sealedEmpty=0 hr=00000000 frames=2880
+RESULT PASS complete=1 hr=00000000 waits=0 fills=21 starts=2 earlyStarts=0
+OPEN rate=96000 bits=16 wait=0 tail=1 pause=0 notify=0 initialWait=0 fills=21 sealedEmpty=0 hr=00000000 frames=2880
+RESULT PASS complete=1 hr=00000000 waits=0 fills=21 starts=1 earlyStarts=0
+OPEN rate=96000 bits=24 wait=0 tail=1 pause=0 notify=1 initialWait=1 fills=21 sealedEmpty=0 hr=00000000 frames=2880
+RESULT PASS complete=1 hr=00000000 waits=1 fills=21 starts=1 earlyStarts=0
+OPEN rate=96000 bits=24 wait=1 tail=0 pause=0 notify=0 initialWait=0 fills=21 sealedEmpty=0 hr=00000000 frames=2880
+RESULT PASS complete=1 hr=00000000 waits=1 fills=21 starts=2 earlyStarts=0
+OPEN rate=96000 bits=24 wait=1 tail=1 pause=0 notify=0 initialWait=0 fills=21 sealedEmpty=0 hr=00000000 frames=2880
+RESULT PASS complete=1 hr=00000000 waits=1 fills=21 starts=2 earlyStarts=0
+OPEN rate=96000 bits=24 wait=1 tail=2 pause=0 notify=0 initialWait=0 fills=21 sealedEmpty=0 hr=00000000 frames=2880
+RESULT PASS complete=1 hr=00000000 waits=1 fills=21 starts=2 earlyStarts=0
+OPEN rate=96000 bits=24 wait=1 tail=1 pause=1 notify=0 initialWait=0 fills=21 sealedEmpty=0 hr=00000000 frames=2880
+RESULT PASS complete=1 hr=00000000 waits=1 fills=21 starts=3 earlyStarts=0
+OPEN rate=96000 bits=16 wait=1 tail=1 pause=0 notify=0 initialWait=0 fills=21 sealedEmpty=0 hr=00000000 frames=2880
+RESULT PASS complete=1 hr=00000000 waits=1 fills=21 starts=2 earlyStarts=0
+OPEN rate=96000 bits=24 wait=1 tail=1 pause=0 notify=1 initialWait=1 fills=21 sealedEmpty=0 hr=00000000 frames=2880
+RESULT PASS complete=1 hr=00000000 waits=2 fills=21 starts=2 earlyStarts=0
+OPEN rate=96000 bits=24 wait=0 tail=0 pause=0 notify=0 initialWait=0 fills=1 sealedEmpty=0 hr=00000000 frames=2880
+RESULT PASS complete=1 hr=00000000 waits=0 fills=1 starts=1 earlyStarts=0
+OPEN rate=96000 bits=24 wait=0 tail=1 pause=0 notify=0 initialWait=0 fills=1 sealedEmpty=0 hr=00000000 frames=2880
+RESULT PASS complete=1 hr=00000000 waits=0 fills=1 starts=1 earlyStarts=0
+OPEN rate=96000 bits=24 wait=0 tail=2 pause=0 notify=0 initialWait=0 fills=1 sealedEmpty=0 hr=00000000 frames=2880
+RESULT PASS complete=1 hr=00000000 waits=0 fills=1 starts=1 earlyStarts=0
+OPEN rate=96000 bits=24 wait=0 tail=2 pause=0 notify=1 initialWait=1 fills=1 sealedEmpty=0 hr=00000000 frames=2880
+RESULT PASS complete=1 hr=00000000 waits=1 fills=1 starts=1 earlyStarts=0
+OPEN rate=96000 bits=24 wait=0 tail=0 pause=0 notify=0 initialWait=0 fills=0 sealedEmpty=1 hr=00000000 frames=2880
+RESULT PASS complete=1 hr=00000000 waits=0 fills=0 starts=0 earlyStarts=0
+OPEN rate=96000 bits=24 wait=0 tail=0 pause=0 notify=1 initialWait=1 fills=0 sealedEmpty=1 hr=00000000 frames=2880
+RESULT PASS complete=1 hr=00000000 waits=1 fills=0 starts=0 earlyStarts=0
+OPEN rate=44100 bits=24 wait=0 tail=0 pause=0 notify=0 initialWait=0 fills=21 sealedEmpty=0 hr=00000000 frames=1323
+RESULT PASS complete=1 hr=00000000 waits=0 fills=21 starts=1 earlyStarts=0
+OPEN rate=44100 bits=24 wait=0 tail=1 pause=0 notify=0 initialWait=0 fills=21 sealedEmpty=0 hr=00000000 frames=1323
+RESULT PASS complete=1 hr=00000000 waits=0 fills=21 starts=1 earlyStarts=0
+OPEN rate=44100 bits=24 wait=0 tail=2 pause=0 notify=0 initialWait=0 fills=21 sealedEmpty=0 hr=00000000 frames=1323
+RESULT PASS complete=1 hr=00000000 waits=0 fills=21 starts=1 earlyStarts=0
+OPEN rate=44100 bits=24 wait=0 tail=1 pause=1 notify=0 initialWait=0 fills=21 sealedEmpty=0 hr=00000000 frames=1323
+RESULT PASS complete=1 hr=00000000 waits=0 fills=21 starts=2 earlyStarts=0
+OPEN rate=44100 bits=16 wait=0 tail=1 pause=0 notify=0 initialWait=0 fills=21 sealedEmpty=0 hr=00000000 frames=1323
+RESULT PASS complete=1 hr=00000000 waits=0 fills=21 starts=1 earlyStarts=0
+OPEN rate=44100 bits=24 wait=0 tail=1 pause=0 notify=1 initialWait=1 fills=21 sealedEmpty=0 hr=00000000 frames=1323
+RESULT PASS complete=1 hr=00000000 waits=1 fills=21 starts=1 earlyStarts=0
+OPEN rate=44100 bits=24 wait=1 tail=0 pause=0 notify=0 initialWait=0 fills=21 sealedEmpty=0 hr=00000000 frames=1323
+RESULT PASS complete=1 hr=00000000 waits=1 fills=21 starts=2 earlyStarts=0
+OPEN rate=44100 bits=24 wait=1 tail=1 pause=0 notify=0 initialWait=0 fills=21 sealedEmpty=0 hr=00000000 frames=1323
+RESULT PASS complete=1 hr=00000000 waits=1 fills=21 starts=2 earlyStarts=0
+OPEN rate=44100 bits=24 wait=1 tail=2 pause=0 notify=0 initialWait=0 fills=21 sealedEmpty=0 hr=00000000 frames=1323
+RESULT PASS complete=1 hr=00000000 waits=1 fills=21 starts=2 earlyStarts=0
+OPEN rate=44100 bits=24 wait=1 tail=1 pause=1 notify=0 initialWait=0 fills=21 sealedEmpty=0 hr=00000000 frames=1323
+RESULT PASS complete=1 hr=00000000 waits=1 fills=21 starts=3 earlyStarts=0
+OPEN rate=44100 bits=16 wait=1 tail=1 pause=0 notify=0 initialWait=0 fills=21 sealedEmpty=0 hr=00000000 frames=1323
+RESULT PASS complete=1 hr=00000000 waits=1 fills=21 starts=2 earlyStarts=0
+OPEN rate=44100 bits=24 wait=1 tail=1 pause=0 notify=1 initialWait=1 fills=21 sealedEmpty=0 hr=00000000 frames=1323
+RESULT PASS complete=1 hr=00000000 waits=2 fills=21 starts=2 earlyStarts=0
+OPEN rate=44100 bits=24 wait=0 tail=0 pause=0 notify=0 initialWait=0 fills=1 sealedEmpty=0 hr=00000000 frames=1323
+RESULT PASS complete=1 hr=00000000 waits=0 fills=1 starts=1 earlyStarts=0
+OPEN rate=44100 bits=24 wait=0 tail=1 pause=0 notify=0 initialWait=0 fills=1 sealedEmpty=0 hr=00000000 frames=1323
+RESULT PASS complete=1 hr=00000000 waits=0 fills=1 starts=1 earlyStarts=0
+OPEN rate=44100 bits=24 wait=0 tail=2 pause=0 notify=0 initialWait=0 fills=1 sealedEmpty=0 hr=00000000 frames=1323
+RESULT PASS complete=1 hr=00000000 waits=0 fills=1 starts=1 earlyStarts=0
+OPEN rate=44100 bits=24 wait=0 tail=2 pause=0 notify=1 initialWait=1 fills=1 sealedEmpty=0 hr=00000000 frames=1323
+RESULT PASS complete=1 hr=00000000 waits=1 fills=1 starts=1 earlyStarts=0
+OPEN rate=44100 bits=24 wait=0 tail=0 pause=0 notify=0 initialWait=0 fills=0 sealedEmpty=1 hr=00000000 frames=1323
+RESULT PASS complete=1 hr=00000000 waits=0 fills=0 starts=0 earlyStarts=0
+OPEN rate=44100 bits=24 wait=0 tail=0 pause=0 notify=1 initialWait=1 fills=0 sealedEmpty=1 hr=00000000 frames=1323
+RESULT PASS complete=1 hr=00000000 waits=1 fills=0 starts=0 earlyStarts=0
+54 hardware cases: 0 failed
