@@ -14,7 +14,7 @@ was re-run for the record. Results are identical (54/54 per run,
 | File | Device | Runs | Result |
 |---|---|---|---|
 | `fosi-run1.log`, `fosi-run2.log` | Fosi Audio DA2120C | 2 | 54/54, 54/54 |
-| `chord-run1..3.log` | Chord Mojo | 3 | pending reconnect - the DAC is currently powered off; logs will be added in a follow-up commit |
+| `chord-run1.log`, `chord-run2.log`, `chord-run3.log` | Chord Mojo | 3 | 54/54 in all three runs |
 
 Device, driver and OS details are unchanged from the table in issue #10:
 
